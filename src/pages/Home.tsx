@@ -20,7 +20,7 @@ export default function Home() {
   imageAnimationList.forEach((el) => observer.observe(el));
 
   return (
-    <>
+    <section className="home">
       <NavBar></NavBar>
       <motion.div
         className="bar"
@@ -51,28 +51,46 @@ export default function Home() {
         }}
       ></motion.img>
 
-      {/*<div className="profile-box" style={{display: "flex", marginTop:'200px', marginBottom: '10px', marginLeft: '15%', marginRight: '15%', justifyContent:'space-between'}}>*/}
-      {/*    <div className="profile">*/}
-      {/*        <img alt="pic3" src={pic3} style={{width: '500px', borderRadius: '70px'}}></img>*/}
-      {/*    </div>*/}
+      <div className="profile-container">
+        <div className="profile-img-wrapper">
+          <img alt="pic3" src={pic3}></img>
+        </div>
 
-      {/*    <div className="interested">*/}
-      {/*        <Contact className="aaa" style={{fontSize: '40px', marginTop: '40px'}}>안녕하세요!</Contact>*/}
-      {/*        <Contact className="aaa" style={{fontSize: '30px', marginTop: '20px'}}><strong> 행복하게 매일을 살아가는 개발자,</strong></Contact>*/}
-      {/*        <Contact className="aaa" style={{fontSize: '25px', marginTop: '10px'}}>정혜인 입니다.</Contact>*/}
-      {/*        <Contact style={{fontSize: '18px', marginTop: '60px'}}>개발을 하며 힘들 때도 많지만, </Contact>*/}
-      {/*        <Contact style={{fontSize: '18px', marginBottom: '50px'}}>구현해냈을 때의 희열은 계속 개발을 하게 만드는 원동력이 됩니다.</Contact>*/}
-      {/*        <Contact style={{fontSize: '18px'}}>그 희열을 누구보다 잘 알기에</Contact>*/}
-      {/*        <Contact style={{fontSize: '18px'}}>항상 공부하고, 성장해나갑니다.</Contact>*/}
-      {/*        <Contact style={{fontSize: '18px', marginBottom: '50px'}}>희열을 느끼기 위해 앞으로도 끊임없이 공부할 것입니다.</Contact>*/}
-      {/*        <Contact style={{fontSize: '15px', marginTop: '50px'}}>저에 대한 자세한 내용은 introduce 메뉴에서 확인 바랍니다.</Contact>*/}
-      {/*    </div>*/}
-      {/*</div>*/}
-      {/*<div style={{display: 'flex', justifyContent: 'end', marginRight: '100px'}}>*/}
-      {/*    <Button to={`${process.env.PUBLIC_URL}/introduce`} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>to Introduce Menu</Button>*/}
-      {/*</div>*/}
+        <div className="profile-text-wrapper">
+          <div className="profile-introduce-title-container">
+            <div>안녕하세요!</div>
+            <div className="profile-introduce-subtitle-box">
+              <strong>행복하게 매일을 살아가는 개발자,</strong>
+              <div className="profile-introduce-subtitle-2">정혜인 입니다.</div>
+            </div>
+          </div>
+          <div className="profile-introduce-desc">
+            <div>
+              개발을 하며 힘들 때도 많지만,
+              <br />
+              구현해냈을 때의 희열은 계속 개발을 하게 만드는 원동력이 됩니다.
+            </div>
+            <div>
+              그 희열을 누구보다 잘 알기에
+              <br />
+              항상 공부하고, 성장해나갑니다.
+              <br />
+              희열을 느끼기 위해 앞으로도 끊임없이 공부할 것입니다.
+            </div>
+            <div>저에 대한 자세한 내용은 introduce 메뉴에서 확인 바랍니다.</div>
+          </div>
+        </div>
+      </div>
+      <div className="btn-container">
+        <NavLink
+          className="to-introduce-btn"
+          to={`${process.env.PUBLIC_URL}/introduce`}
+        >
+          to Introduce Menu
+        </NavLink>
+      </div>
       <Footer />
-    </>
+    </section>
   );
 }
 
