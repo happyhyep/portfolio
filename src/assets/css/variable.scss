@@ -1,0 +1,49 @@
+/**
+COLOR LIST
+ */
+
+$colorWhite: #ffffff;
+$colorBlack: #000000;
+
+$colorGray100: #333333;
+
+$colorBrown100: #53354A;
+
+
+
+
+
+
+
+
+
+/**
+RESOLUTION LIST
+ */
+@mixin mobile {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin min-tablet {
+  @media (width: 768px) {
+    @content;
+  }
+}
+
+@mixin big-tablet {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin min-pc {
+  @media (min-width: 1025px) and (max-width: 1447px) {
+    @content;
+  }
+}
+@mixin big-pc {
+  @media (min-width: 1448px) and (max-width: 99999px) {
+    @content;
+  }
+}
