@@ -1,0 +1,28 @@
+.introduce-profile-image{
+    opacity: 0;
+    transition: 1.2s;
+}
+
+.introduce-profile-image.active{
+    opacity: 1;
+}
+
+.introduce-profile-name{
+    transform: translateX(-30%);
+    opacity: 0;
+    transition: .8s;
+}
+
+.introduce-profile-name.active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.my-photo-list{
+    transform: translateX(50%);
+    transition: 1s;
+}
+
+.my-photo-list.active{
+    transform: translateX(0);
+}

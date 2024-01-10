@@ -6,6 +6,15 @@
       "dom.iterable",
       "esnext"
     ],
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "./src/*",
+        "./dist/*"
+      ],
+      "@images/*": ["public/assets/images/*"],
+      "@icons/*": ["public/assets/icons/*"]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,9 +27,18 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "incremental": true,
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.d.tsx", "src/**/*.tsx"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "public",
+]
 }

@@ -1,0 +1,103 @@
+.nav-bar {
+  width: 100%;
+  .top-menu {
+       height: 12rem;
+       display: flex;
+       border-bottom-color: black;
+       border-bottom-style: solid;
+       border-bottom-width: 0.25rem;
+       justify-content: space-between;
+       background-color: white;
+       width: 100%;
+
+    .nav-text-logo {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      .animated-text {
+        color: transparent;
+        cursor: pointer;
+        background: conic-gradient(
+                        #00a6c6 10%,
+                        #01c7b7 20%,
+                        #f3ecdc 30%,
+                        #dfdbce 35%,
+                        #b8b8b5 62%,
+                        #90796e 62%,
+                        #033468 75%,
+                        #21bcd6 75%,
+                        #1779bb 85%,
+                        #768fd6 85%
+        );
+
+        background-size: 50%;
+        background-clip: text;
+        -webkit-background-clip: text;
+
+        animation: expand-rev 1s ease forwards;
+
+        &:hover {
+          animation: expand 1s ease forwards;
+        }
+      }
+
+      @keyframes expand {
+        0% {
+          background-size: 30%;
+          background-position: 0 0;
+        }
+        20% {
+          background-size: 55%;
+          background-position: 0 1em;
+        }
+        100% {
+          background-size: 325%;
+          background-position: -15em -1em;
+        }
+      }
+
+      @keyframes expand-rev {
+        0% {
+          background-size: 325%;
+          background-position: -10em -4em;
+        }
+        20% {
+          background-size: 55%;
+          background-position: 0 2em;
+        }
+        100% {
+          background-size: 30%;
+          background-position: 2em 0.1em;
+        }
+      }
+
+      .happyhyep-text {
+           margin-left: 3.75rem;
+           align-items: center;
+           letter-spacing: 0.09em;
+
+           font-family: Redemption;
+           font-style: normal;
+           font-weight: 400;
+           font-size: 7.5rem;
+      }
+    }
+
+    .link-container {
+      width: 56.25rem;
+      display: flex;
+      .link-text {
+           margin-left: 0;
+           margin-right: 3.5rem;
+           display: flex;
+           align-items: center;
+
+           font-size: 2rem;
+           font-family: Noto Sans KR;
+           color: rgb(0, 0, 0);
+           text-decoration: none;
+      }
+    }
+  }
+
+}

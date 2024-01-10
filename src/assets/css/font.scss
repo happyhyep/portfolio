@@ -1,0 +1,34 @@
+//@font-face {
+//    font-family: "applesdgothic", applesdgothic;
+//    src: url("./applesdgothic.ttf") format("woff2");
+//    font-weight: normal;
+//    font-style: normal;
+//};
+@font-face {
+  font-family: 'iceJaram-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+//@font-face {
+//    font-family: 'UhBeeRice';
+//    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeRice.woff') format('woff');
+//    font-weight: normal;
+//    font-style: normal;
+//    }
+
+     @font-face {
+  font-family: 'Redemption';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Redemption'), url('https://fonts.cdnfonts.com/s/23565/Redemption.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosanskr/v36/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoyeLHq8H4gdeG6cl5G3CHlodySd_ke-3HNnn9yQA.0.woff2) format('woff2');
+  unicode-range: U+f9ca-fa0b, U+ff03-ff05, U+ff07, U+ff0a-ff0b, U+ff0d-ff19, U+ff1b, U+ff1d, U+ff20-ff5b, U+ff5d, U+ffe0-ffe3, U+ffe5-ffe6;
+}
