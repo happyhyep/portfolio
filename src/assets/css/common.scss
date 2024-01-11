@@ -11,8 +11,23 @@ html {
   @include mobile {
     font-size: 4px;
   }
+  @include min-mobile {
+    font-size: 3px;
+  }
   body {
     margin: 0;
   }
 }
 
+.dash-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8.75rem 0 5rem;
+  .dash-line {
+    width: 30%;
+    height: 0;
+    border: 0.125rem dashed $colorBlack;
+    margin: 8.75rem 0 8.75rem;
+  }
+}

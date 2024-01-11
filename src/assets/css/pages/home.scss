@@ -1,4 +1,4 @@
-.home {
+.home-page {
     .profile-container {
         display: flex;
         padding: 25rem 15% 8rem;
@@ -40,7 +40,9 @@
                 flex-direction: column;
                 gap: 1.25rem;
                 font-size: 3.75rem;
+                color: $colorBlue200;
                 .profile-introduce-subtitle-2 {
+                    color: $colorBrown100;
                     font-size: 3.125rem;
                 }
             }
@@ -97,9 +99,16 @@
            .profile-img-wrapper {
                max-width: 80%;
            }
-           .profile-text-wrapper {
-
-           }
        }
+    }
+    @include min-mobile {
+        .profile-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 10rem;
+            .profile-img-wrapper {
+                max-width: 80%;
+            }
+        }
     }
 }

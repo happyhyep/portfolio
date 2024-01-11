@@ -6,7 +6,7 @@ import award_dcom from "src/assets/images/awards/award_dcom.webp";
 import award_edu from "src/assets/images/awards/award_edu.webp";
 import award_money from "src/assets/images/awards/award_money.webp";
 import { motion, useScroll } from "framer-motion";
-import { observer } from "src/lib/worker/IntersectionObserver";
+import { observer } from "src/utils/IntersectionObserver";
 
 export default function Awards() {
   const { scrollYProgress } = useScroll();

@@ -5,10 +5,10 @@ import title from "src/assets/images/title.webp";
 import Footer from "src/components/common/Footer";
 import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
-import { observer } from "src/lib/worker/IntersectionObserver";
+import { observer } from "src/utils/IntersectionObserver";
+import TopBar from "src/pages/TopBar";
 
 export default function Home() {
-  const { scrollYProgress } = useScroll();
   const [landingTitle, setLandingTitle] = useState("");
   const [count, setCount] = useState(0);
   const [textNum, setTextNum] = useState(0);
@@ -20,24 +20,9 @@ export default function Home() {
   imageAnimationList.forEach((el) => observer.observe(el));
 
   return (
-    <section className="home">
+    <section className="home-page">
       <NavBar></NavBar>
-      <motion.div
-        className="bar"
-        style={{
-          scaleX: scrollYProgress,
-          position: "fixed",
-          top: 0,
-          left: 0,
-          bottom: 0,
-          right: 0,
-          width: "100%",
-          height: "5px",
-          transformOrigin: 0,
-          transform: "translate3d(0, 0, 0)",
-          background: "#93C6D5",
-        }}
-      />
+      <TopBar color="#93C6D5" />
       <motion.img
         alt="title"
         src={title}

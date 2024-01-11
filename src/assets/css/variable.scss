@@ -9,9 +9,10 @@ $colorGray100: #333333;
 
 $colorBrown100: #53354A;
 
+$colorYellow100: #ffd400;
 
-
-
+$colorBlue100: #93C6D5;
+$colorBlue200: #71b5c9;
 
 
 
@@ -20,8 +21,13 @@ $colorBrown100: #53354A;
 /**
 RESOLUTION LIST
  */
+@mixin min-mobile {
+  @media (max-width: 413px) {
+    @content
+  }
+}
 @mixin mobile {
-  @media (max-width: 767px) {
+  @media (min-width:414px) and (max-width: 767px) {
     @content;
   }
 }

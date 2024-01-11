@@ -3,9 +3,10 @@
 @import "font";
 @import "common";
 
+@import "pages/home";
+@import "pages/awards";
+@import "pages/introduce";
+
 @import "components/navBar";
 @import "components/footer";
 
-@import "pages/home";
-@import "pages/awards";
-@import "introduce";
