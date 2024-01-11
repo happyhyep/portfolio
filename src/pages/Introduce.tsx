@@ -13,7 +13,7 @@ import { EducationData } from "@src/types/type";
 import { educationList } from "src/lib/EducationData";
 import DashTitle from "src/components/common/DashTitle";
 import SkillsContainer from "src/components/SkillsContainer";
-import TopBar from "src/pages/TopBar";
+import TopBar from "src/components/TopBar";
 
 export default function Introduce() {
   // const { scrollYProgress } = useScroll();

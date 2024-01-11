@@ -6,7 +6,7 @@ import Footer from "src/components/common/Footer";
 import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
 import { observer } from "src/utils/IntersectionObserver";
-import TopBar from "src/pages/TopBar";
+import TopBar from "src/components/TopBar";
 
 export default function Home() {
   const [landingTitle, setLandingTitle] = useState("");

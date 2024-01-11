@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="project 페이지 이미지 변경, 추가">
-      <change afterPath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/DashTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/EducationData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/TopBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/enum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/type.ts" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/Introduce.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/introduceRandomTextList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/introduceRandomTextList.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/worker/IntersectionObserver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/IntersectionObserver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +78,11 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$/src/assets/css/pages" />
       <recent name="$PROJECT_DIR$/src/assets/css/components" />
       <recent name="$PROJECT_DIR$/public/assets" />
-      <recent name="$PROJECT_DIR$/src/components/common" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,7 +97,8 @@
       <workItem from="1704864320557" duration="176000" />
       <workItem from="1704864510684" duration="652000" />
       <workItem from="1704865434546" duration="9788000" />
-      <workItem from="1704935531192" duration="10831000" />
+      <workItem from="1704935531192" duration="11265000" />
+      <workItem from="1704950670806" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -134,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704886435369</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화">
+      <created>1704950585551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704950585551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +149,8 @@
     <MESSAGE value="공통 코드 리팩토링, css 변수화" />
     <MESSAGE value="홈화면 리팩토링" />
     <MESSAGE value="project 페이지 이미지 변경, 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="project 페이지 이미지 변경, 추가" />
+    <MESSAGE value="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
