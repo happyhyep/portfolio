@@ -1,6 +1,5 @@
 .nav-bar {
   width: 100%;
-  .top-menu {
        height: 12rem;
        display: flex;
        border-bottom-color: $colorBlack;
@@ -84,65 +83,74 @@
     }
 
     .link-container {
-      display: unset;
-      width: 56.25rem;
       display: flex;
+      align-items: center;
+      margin-right: 5rem;
+      gap: 3.5rem;
       .link-text {
-           margin-left: 0;
-           margin-right: 3.5rem;
            display: flex;
            align-items: center;
 
-           font-size: 2rem;
+           font-size: 2.3rem;
            font-family: Noto Sans KR;
-           color: rgb(0, 0, 0);
+           color: $colorBlack;
            text-decoration: none;
+      }
+      img {
+        height: 4rem;
+        cursor: pointer;
       }
     }
     .mobile-header-right {
-    display: none;
+      display: none;
     }
+
+
+
+  // mobile인 경우 헤더
+  @include mobile {
+      .link-container {
+        display: none;
+      }
+      .mobile-header-right {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-right: 5rem;
+        img:nth-child(1) {
+          cursor: pointer;
+          height: 6rem;
+        }
+        img:nth-child(3) {
+          height: 4rem;
+        }
+      }
+  }
+  // mobile인 경우 헤더
+  @include min-mobile {
+      .link-container {
+        display: none;
+      }
+      .mobile-header-right {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-right: 5rem;
+        img:nth-child(1) {
+          height: 6rem;
+        }
+        img:nth-child(3) {
+          height: 4rem;
+        }
+      }
   }
 
-  @include mobile {
-    .top-menu {
-      .link-container {
-        display: none;
-      }
-      .mobile-header-right {
-        display: flex;
-        align-items: center;
-        gap: 3rem;
-        margin-right: 5rem;
-        img:nth-child(1) {
-          height: 6rem;
-        }
-        img:nth-child(3) {
-          height: 4rem;
-        }
-      }
-    }
+
+  // lang 변경하는 toast
+  .hidden-lang-toast {
+    display: none;
   }
-  @include min-mobile {
-    .top-menu {
-      .link-container {
-        display: none;
-      }
-      .mobile-header-right {
-        display: flex;
-        align-items: center;
-        gap: 3rem;
-        margin-right: 5rem;
-        img:nth-child(1) {
-          height: 6rem;
-        }
-        img:nth-child(3) {
-          height: 4rem;
-        }
-      }
-    }
-  }
-  .display-none {
+  .hidden-lang-toast-mobile {
     display: none;
   }
   .lang-toast {
@@ -151,11 +159,12 @@
     background-color: $colorWhite;
     position: absolute;
     top: 10.5rem;
-    right: 7rem;
+    right: 2rem;
     z-index: 10;
     border: 0.125rem solid $colorBlack;
     border-radius: 1.3rem;
     font-size: 2.8rem;
+    @include dropDown();
     ul {
       list-style: none;
       margin: 0;
@@ -167,7 +176,7 @@
       .checked-lang-wrapper {
         display: flex;
         justify-content: center;
-
+        align-items: center;
         img {
           position: absolute;
           left: 1rem;
@@ -175,5 +184,12 @@
         }
       }
     }
+    @include mobile {
+      right: 7rem;
+    }
+    @include min-mobile {
+      right: 7rem;
+    }
   }
 }
+

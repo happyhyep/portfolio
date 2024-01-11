@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="topbar 폴더 수정">
-      <change afterPath="$PROJECT_DIR$/src/constants-keys.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="navbar 모바일 버수정, lang change 기능 적용">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/mobileMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/navBar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/nfm-trd-2023.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/projects/nfm-trd-2023.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/TopBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="77092971-6abd-424b-9793-745703074efa" />
+        <option name="url" value="https://github.com/happyhyep/portfolio.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,11 +100,11 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/common" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$/src/assets/css/pages" />
       <recent name="$PROJECT_DIR$/src/assets/css/components" />
-      <recent name="$PROJECT_DIR$/public/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,7 +121,7 @@
       <workItem from="1704865434546" duration="9788000" />
       <workItem from="1704935531192" duration="11265000" />
       <workItem from="1704950670806" duration="6918000" />
-      <workItem from="1704960544323" duration="2735000" />
+      <workItem from="1704960544323" duration="8328000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -149,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704950770547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="navbar 모바일 버수정, lang change 기능 적용">
+      <created>1704963339057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704963339057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +188,8 @@
     <MESSAGE value="project 페이지 이미지 변경, 추가" />
     <MESSAGE value="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화" />
     <MESSAGE value="topbar 폴더 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="topbar 폴더 수정" />
+    <MESSAGE value="navbar 모바일 버수정, lang change 기능 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar 모바일 버수정, lang change 기능 적용" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

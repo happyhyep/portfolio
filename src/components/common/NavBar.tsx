@@ -1,53 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import langIcon from "src/assets/icons/lang.svg";
 import menuIcon from "src/assets/icons/menu.svg";
-import checkedIcon from "src/assets/icons/check.svg";
-import { SelectOptionInterface } from "src/types/type";
-import { loadLocalData, saveLocalData } from "src/utils/common-util";
-import AppConfig from "src/constants";
-import { getI18n, useTranslation } from "react-i18next";
-import i18n from "src/lang/index";
-import App from "@src/App";
-import { Simulate } from "react-dom/test-utils";
-import load = Simulate.load;
+import LangToast from "src/components/common/LangToast";
+import MobileMenu from "src/components/common/MobileMenu";
 
 const NavBar = () => {
-  const { t } = useTranslation();
-  const langOptions: SelectOptionInterface[] = [
-    { value: "ko", label: t("lang.ko") },
-    { value: "jp", label: t("lang.jp") },
-    { value: "en", label: t("lang.en") },
-  ];
-  const [isOpenedLangToast, setIsOpenedLangToast] = useState(false);
-  const openLangToast = () => {
-    const toastElement: HTMLElement | null =
-      document.querySelector(".display-none");
-    isOpenedLangToast
-      ? toastElement?.classList.remove("lang-toast")
-      : toastElement?.classList.add("lang-toast");
-    setIsOpenedLangToast(!isOpenedLangToast);
+  const [isOpenedMobileMenu, setIsOpenedMobileMenu] = useState(false);
+  const openMobileMenu = () => {
+    setIsOpenedMobileMenu(!isOpenedMobileMenu);
   };
-
-  const changeLangOption = (clickedLang: SelectOptionInterface) => {
-    saveLocalData(AppConfig.KEYS.LANG, clickedLang.value);
-    i18n.changeLanguage(clickedLang.value);
-
-    console.log(loadLocalData(AppConfig.KEYS.LANG), getI18n());
-    setIsOpenedLangToast(false);
-  };
-
-  useEffect(() => {
-    const toastElement: HTMLElement | null =
-      document.querySelector(".display-none");
-    isOpenedLangToast
-      ? toastElement?.classList.add("lang-toast")
-      : toastElement?.classList.remove("lang-toast");
-  }, [isOpenedLangToast]);
-
   return (
-    <div className="nav-bar">
-      <div className="top-menu">
+    <>
+      {isOpenedMobileMenu ? <MobileMenu /> : null}
+      <div className="nav-bar">
         <NavLink className="nav-text-logo" to={`${process.env.PUBLIC_URL}/`}>
           <div className="animated-text happyhyep-text">happyhyep</div>
         </NavLink>
@@ -83,29 +48,14 @@ const NavBar = () => {
           >
             Gallery
           </NavLink>
+          <LangToast isMobile={false} />
         </div>
         <div className="mobile-header-right">
-          <img onClick={openLangToast} src={langIcon} />
-          <div className="display-none">
-            <ul>
-              {langOptions.map((el) => {
-                if (el.value === loadLocalData(AppConfig.KEYS.LANG)) {
-                  return (
-                    <section className="checked-lang-wrapper">
-                      <img src={checkedIcon} />
-                      <li onClick={() => changeLangOption(el)}>{el.label}</li>
-                    </section>
-                  );
-                }
-                // @ts-ignore
-                return <li onClick={() => changeLangOption(el)}>{el.label}</li>;
-              })}
-            </ul>
-          </div>
-          <img src={menuIcon} />
+          <LangToast isMobile={true} />
+          <img onClick={openMobileMenu} src={menuIcon} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

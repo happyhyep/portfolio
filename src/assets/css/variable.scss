@@ -94,13 +94,34 @@ RESOLUTION LIST
   }
 }
 
-@mixin dropDownUp {
-  &.dropdown-enter-active,
-  &.dropdown-enter-to {
-    @include dropDown;
+@keyframes dropLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-2rem);
+    width: 0;
+    overflow: hidden;
   }
-  &.dropdown-leave-from,
-  &.dropdown-leave-active {
-    @include dropUp;
+  to {
+    opacity: 1;
   }
 }
+
+
+@mixin dropLeft {
+  animation-name: dropLeft;
+  animation-duration: 500ms;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+
+//@mixin dropDownUp {
+//  &.dropdown-enter-active,
+//  &.dropdown-enter-to {
+//    @include dropDown;
+//  }
+//  &.dropdown-leave-from,
+//  &.dropdown-leave-active {
+//    @include dropUp;
+//  }
+//}

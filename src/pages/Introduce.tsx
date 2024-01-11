@@ -9,11 +9,11 @@ import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import Footer from "src/components/common/Footer";
 import "../assets/css/pages/introduce.scss";
 import { introduceRandomTextList } from "src/utils/introduceRandomTextList";
-import { EducationData } from "@src/types/type";
+import { EducationData } from "src/types/type";
 import { educationList } from "src/lib/EducationData";
 import DashTitle from "src/components/common/DashTitle";
 import SkillsContainer from "src/components/SkillsContainer";
-import TopBar from "src/components/TopBar";
+import TopBar from "src/components/common/TopBar";
 
 export default function Introduce() {
   const [landingTitle, setLandingTitle] = useState("");
