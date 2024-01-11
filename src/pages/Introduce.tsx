@@ -16,8 +16,6 @@ import SkillsContainer from "src/components/SkillsContainer";
 import TopBar from "src/components/TopBar";
 
 export default function Introduce() {
-  // const { scrollYProgress } = useScroll();
-
   const [landingTitle, setLandingTitle] = useState("");
   const [count, setCount] = useState(0);
   const [textNum, setTextNum] = useState(0);

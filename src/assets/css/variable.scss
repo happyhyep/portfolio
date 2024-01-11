@@ -6,6 +6,7 @@ $colorWhite: #ffffff;
 $colorBlack: #000000;
 
 $colorGray100: #333333;
+$colorGray200: #888888;
 
 $colorBrown100: #53354A;
 
@@ -51,5 +52,55 @@ RESOLUTION LIST
 @mixin big-pc {
   @media (min-width: 1448px) and (max-width: 99999px) {
     @content;
+  }
+}
+
+
+@mixin dropDown {
+  animation-name: dropDown;
+  animation-duration: 500ms;
+  animation-direction: normal;
+}
+@keyframes dropDown {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+    height: 0;
+    overflow: hidden;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@mixin dropUp {
+  animation-name: dropUp;
+  animation-duration: 500ms;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dropUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-2rem);
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+@mixin dropDownUp {
+  &.dropdown-enter-active,
+  &.dropdown-enter-to {
+    @include dropDown;
+  }
+  &.dropdown-leave-from,
+  &.dropdown-leave-active {
+    @include dropUp;
   }
 }

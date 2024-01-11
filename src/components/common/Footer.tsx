@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import github from "../../assets/icons/github.webp";
-import instagram from "../../assets/icons/instagram.webp";
-import velog from "../../assets/icons/velog.webp";
+import github from "src/assets/icons/github.webp";
+import instagram from "src/assets/icons/instagram.webp";
+import velog from "src/assets/icons/velog.webp";
 
 const Footer = () => {
   return (
