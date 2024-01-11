@@ -3,5 +3,54 @@
     "ko": "Korean",
     "en": "English",
     "jp": "Japanese"
+  },
+  "home": {
+    "title-hello": "Welcome!",
+    "title-always-happy": "I'm Jeong Hyein,",
+    "title-my-name": "who lives happily every day.",
+    "desc-1p-1": "There are many times when it is difficult to develop,",
+    "desc-1p-2": "but the joy of implementing it is the driving force to continue development.",
+    "desc-2p-1": "I know the joy better than anyone else,",
+    "desc-2p-2": "so I always study and grow.",
+    "desc-2p-3": "I will continue to study constantly to feel joy.",
+    "desc-3p-1": "For more information about me, please check the introduce menu."
+  },
+  "introduce": {
+    "desc": {
+      "1p-1": "Hi Everyone,",
+      "1p-2": "This is Hyein Jeong, a front-end developer who wants to provide a good experience for users when using websites or applications.",
+      "2p-1": "I think it's important to keep the page imprinted by making it stand out to the user's eyes, while also paying attention to UI/UX.",
+      "2p-2": "I am passionate about building an intuitive interface that users can easily understand and use, ",
+      "2p-3": "and implementing a visually appealing and modern design.",
+      "3p-1": "I am always doing my best as a creative and collaborative developer.",
+      "3p-2": "In addition, I can communicate smoothly with people in other jobs through experience gained by conducting student president, club activities, and collaboration.",
+      "4p-1": "I will be happy and positive in everything and produce good results ",
+      "4p-2": "not only in coding but also in communication and collaboration."
+    },
+    "typing": {
+      "hello": "Hello!",
+      "random-1": "Doing my best every moment happily",
+      "random-2": "Always full of passion",
+      "random-3": "Thinking positively always",
+      "random-4": "Considering the user's convenience",
+      "my-name": ", I'm Hyein Jeong."
+    },
+    "interest": {
+      "1-desc": "I like ",
+      "1-name": "programming",
+      "1-like": " that makes imagination a reality.",
+      "2-desc": "I like ",
+      "2-name": "taking pictures",
+      "2-like": " recording beautiful moments.",
+      "3-desc": "I like ",
+      "3-name": "band ensembles(drum)",
+      "3-like": " where several instruments become one piece of music."
+    },
+    "education": {
+      "high-school": "Pohang Jangseong Highschool",
+      "science-gen": "Gyeongsangbuk-do Office Education Science Gifted Education Center",
+      "univ": "Kyunghee Univ. Computer Science & Engineering",
+      "apple-academy": "Apple Developer Academy"
+    }
   }
 }

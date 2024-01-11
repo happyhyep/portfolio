@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="navbar 모바일 버수정, lang change 기능 적용">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/mobileMenu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.tsx" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/navBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/TopBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/LangToast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/introduceRandomTextList.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,7 @@
       <workItem from="1704865434546" duration="9788000" />
       <workItem from="1704935531192" duration="11265000" />
       <workItem from="1704950670806" duration="6918000" />
-      <workItem from="1704960544323" duration="8328000" />
+      <workItem from="1704960544323" duration="12619000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704963339057</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료">
+      <created>1704969707329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704969707329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +194,8 @@
     <MESSAGE value="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화" />
     <MESSAGE value="topbar 폴더 수정" />
     <MESSAGE value="navbar 모바일 버수정, lang change 기능 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar 모바일 버수정, lang change 기능 적용" />
+    <MESSAGE value="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

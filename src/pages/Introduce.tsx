@@ -1,25 +1,48 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "src/components/common/NavBar";
 import { NavLink } from "react-router-dom";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import profile_image_8 from "src/assets/images/profile_image/profile_image_8.webp";
 import pic1 from "src/assets/images/profile_image/profile_image_2.webp";
 import pic2 from "src/assets/images/profile_image/profile_image_4.webp";
 import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import Footer from "src/components/common/Footer";
 import "../assets/css/pages/introduce.scss";
-import { introduceRandomTextList } from "src/utils/introduceRandomTextList";
 import { EducationData } from "src/types/type";
-import { educationList } from "src/lib/EducationData";
 import DashTitle from "src/components/common/DashTitle";
 import SkillsContainer from "src/components/SkillsContainer";
 import TopBar from "src/components/common/TopBar";
+import { useTranslation } from "react-i18next";
 
 export default function Introduce() {
+  const { t } = useTranslation();
   const [landingTitle, setLandingTitle] = useState("");
   const [count, setCount] = useState(0);
   const [textNum, setTextNum] = useState(0);
-  const textList = introduceRandomTextList;
+  const textList = [
+    t("introduce.typing.random-1"),
+    t("introduce.typing.random-2"),
+    t("introduce.typing.random-3"),
+    t("introduce.typing.random-4"),
+  ];
+  const educationList: EducationData[] = [
+    {
+      period: "2018 ~ 2020",
+      name: t("introduce.education.high-school"),
+    },
+    {
+      period: "2019",
+      name: t("introduce.education.science-gen"),
+    },
+    {
+      period: "2021~",
+      name: t("introduce.education.univ"),
+    },
+    {
+      period: "2024",
+      name: t("introduce.education.apple-academy"),
+    },
+  ];
 
   useEffect(() => {
     const completedTitle = textList[textNum];
@@ -89,31 +112,26 @@ export default function Introduce() {
 
       <div className="introduce-page-desc">
         <div>
-          안녕하세요,
+          {t("introduce.desc.1p-1")}
           <br />
-          사용자들이 웹사이트나 애플리케이션을 사용할 때 좋은 경험을 제공하고자
-          하는 프론트엔드 개발자 정혜인입니다.
+          {t("introduce.desc.1p-2")}
         </div>
         <div>
-          저는 사용자의 눈에 확 들어오게 하여 페이지를 각인시킴과 동시에
-          UI/UX에도 신경을 쓰는 것을 중요하게 생각합니다.
+          {t("introduce.desc.2p-1")}
           <br />
-          사용자가 쉽게 이해하고 사용할 수 있는 직관적인 인터페이스를 구축하고,
+          {t("introduce.desc.2p-2")}
           <br />
-          시각적으로 매력적이고 현대적인 디자인을 구현하는 것에 열정을 갖고
-          있습니다.
+          {t("introduce.desc.2p-3")}
         </div>
         <div>
-          항상 창의적이고 협업을 중요시하는 개발자로서 최선을 다하고 있습니다.
+          {t("introduce.desc.3p-1")}
           <br />
-          학생회장, 동아리 활동, 개발 협업 등을 진행하며 얻은 경험을 통해 다른
-          직무의 사람들과도 원활한 의사소통이 가능합니다.
+          {t("introduce.desc.3p-2")}
         </div>
         <div>
-          매사에 행복하고 긍정적인 태도로 임하여
+          {t("introduce.desc.4p-1")}
           <br />
-          단순한 코딩 뿐만 아니라 의사소통과 협업에서도 좋은 결과를 만들어낼
-          것입니다.
+          {t("introduce.desc.4p-2")}
         </div>
       </div>
       <div className="my-photo-list">
@@ -123,25 +141,30 @@ export default function Introduce() {
       </div>
 
       <div className="typing-section-wrapper">
-        <div className="my-interested-text">안녕하세요!</div>
+        <div className="my-interested-text">{t("introduce.typing.hello")}</div>
         <div className="my-interested-text">
           <strong>
-            <div className="typing-text">{landingTitle}</div> 개발자 정혜인
-            입니다.
+            <div className="typing-text">{landingTitle}</div>{" "}
+            {t("introduce.typing.my-name")}
           </strong>
         </div>
       </div>
 
       <div className="my-interested-wrapper">
         <div className="my-interested-text">
-          👩🏻‍💻 상상을 현실로 구현하는, <strong>프로그래밍</strong>을 좋아합니다.
+          👩🏻‍💻 {t("introduce.interest.1-desc")}
+          <strong>{t("introduce.interest.1-name")}</strong>
+          {t("introduce.interest.1-like")}
         </div>
         <div className="my-interested-text">
-          📸 아름다운 순간을 기록하는, <strong>사진 촬영</strong>을 좋아합니다.
+          📸 {t("introduce.interest.2-desc")}
+          <strong>{t("introduce.interest.2-name")}</strong>
+          {t("introduce.interest.2-like")}
         </div>
         <div className="my-interested-text">
-          🥁 여러 악기가 하나의 음악이 되는,{" "}
-          <strong>밴드 합주(드럼 연주)</strong>를 좋아합니다.
+          🥁 {t("introduce.interest.3-desc")}
+          <strong>{t("introduce.interest.3-name")}</strong>
+          {t("introduce.interest.3-like")}
         </div>
       </div>
       <div className="contact-wrapper">

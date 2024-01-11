@@ -7,8 +7,11 @@ import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
 import { observer } from "src/utils/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
+
   const [landingTitle, setLandingTitle] = useState("");
   const [count, setCount] = useState(0);
   const [textNum, setTextNum] = useState(0);
@@ -43,26 +46,28 @@ export default function Home() {
 
         <div className="profile-text-wrapper">
           <div className="profile-introduce-title-container">
-            <div>안녕하세요!</div>
+            <div>{t("home.title-hello")}</div>
             <div className="profile-introduce-subtitle-box">
-              <strong>행복하게 매일을 살아가는 개발자,</strong>
-              <div className="profile-introduce-subtitle-2">정혜인 입니다.</div>
+              <strong>{t("home.title-always-happy")}</strong>
+              <div className="profile-introduce-subtitle-2">
+                {t("home.title-my-name")}
+              </div>
             </div>
           </div>
           <div className="profile-introduce-desc">
             <div>
-              개발을 하며 힘들 때도 많지만,
+              {t("home.desc-1p-1")}
               <br />
-              구현해냈을 때의 희열은 계속 개발을 하게 만드는 원동력이 됩니다.
+              {t("home.desc-1p-2")}
             </div>
             <div>
-              그 희열을 누구보다 잘 알기에
+              {t("home.desc-2p-1")}
               <br />
-              항상 공부하고, 성장해나갑니다.
+              {t("home.desc-2p-2")}
               <br />
-              희열을 느끼기 위해 앞으로도 끊임없이 공부할 것입니다.
+              {t("home.desc-2p-3")}
             </div>
-            <div>저에 대한 자세한 내용은 introduce 메뉴에서 확인 바랍니다.</div>
+            <div>{t("home.desc-3p-1")}</div>
           </div>
         </div>
       </div>

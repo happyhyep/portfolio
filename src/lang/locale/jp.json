@@ -3,5 +3,9 @@
     "ko": "韓国語",
     "en": "英語",
     "jp": "日本語"
+  },
+  "home": {
+    "title-hello": "Welcome!",
+    "title-always-happyily": "행복하게 매일을 살아가는 개발자,"
   }
 }

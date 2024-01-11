@@ -3,7 +3,7 @@ import langIcon from "src/assets/icons/lang.svg";
 import { loadLocalData, saveLocalData } from "src/utils/common-util";
 import AppConfig from "src/constants";
 import checkedIcon from "src/assets/icons/check.svg";
-import { getI18n, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { SelectOptionInterface } from "src/types/type";
 import i18n from "src/lang/index";
 
