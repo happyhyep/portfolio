@@ -4,42 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="한국어, 영어 적용 완료">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AwardBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/getProjectPropsData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/RecoilCounter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/RecoilTodo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/states/recoilCounterState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/states/recoilModalState.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/states/recoilTodoState.ts" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="projects 페이지 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/states/recoilMobileMenu.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/mobileMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/mobileMenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/DashTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/DashTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/LangToast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/EducationData.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Activity.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +116,7 @@
       <workItem from="1704935531192" duration="11265000" />
       <workItem from="1704950670806" duration="6918000" />
       <workItem from="1704960544323" duration="13506000" />
-      <workItem from="1705020707489" duration="24523000" />
+      <workItem from="1705020707489" duration="31701000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -202,7 +174,49 @@
       <option name="project" value="LOCAL" />
       <updated>1704974033999</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="recoil 세팅">
+      <created>1705050368707</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705050368707</updated>
+    </task>
+    <task id="LOCAL-00010" summary="navbar와 footer layout으로 통합">
+      <created>1705050477445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705050477445</updated>
+    </task>
+    <task id="LOCAL-00011" summary="recoil 세팅">
+      <created>1705050496525</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705050496525</updated>
+    </task>
+    <task id="LOCAL-00012" summary="award 페이지 리팩토링">
+      <created>1705050554179</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705050554179</updated>
+    </task>
+    <task id="LOCAL-00013" summary="코드 리팩토링">
+      <created>1705050592350</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705050592351</updated>
+    </task>
+    <task id="LOCAL-00014" summary="projects 페이지 리팩토링">
+      <created>1705050615388</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705050615388</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +242,12 @@
     <MESSAGE value="navbar 모바일 버수정, lang change 기능 적용" />
     <MESSAGE value="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료" />
     <MESSAGE value="한국어, 영어 적용 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="한국어, 영어 적용 완료" />
+    <MESSAGE value="navbar와 footer layout으로 통합" />
+    <MESSAGE value="recoil 세팅" />
+    <MESSAGE value="award 페이지 리팩토링" />
+    <MESSAGE value="코드 리팩토링" />
+    <MESSAGE value="projects 페이지 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects 페이지 리팩토링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

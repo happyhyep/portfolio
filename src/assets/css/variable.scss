@@ -8,6 +8,7 @@ $colorBlack: #000000;
 $colorGray100: #333333;
 $colorGray200: #888888;
 $colorGray300: #808080;
+$colorGray400: #595959;
 
 $colorBrown100: #53354A;
 
@@ -115,6 +116,25 @@ RESOLUTION LIST
   animation-fill-mode: forwards;
 }
 
+@keyframes dropRight {
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(2rem);
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+  }
+}
+
+
+@mixin dropRight {
+  animation-name: dropRight;
+  animation-duration: 500ms;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
 
 //@mixin dropDownUp {
 //  &.dropdown-enter-active,

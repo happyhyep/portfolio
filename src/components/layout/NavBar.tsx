@@ -3,15 +3,22 @@ import { NavLink } from "react-router-dom";
 import menuIcon from "src/assets/icons/menu.svg";
 import LangToast from "src/components/common/LangToast";
 import MobileMenu from "src/components/common/MobileMenu";
+import { useRecoilState } from "recoil";
+import { mobileMenu, recoilMobileMenu } from "src/states/recoilMobileMenu";
 
 const NavBar = () => {
-  const [isOpenedMobileMenu, setIsOpenedMobileMenu] = useState(false);
+  const [isOpenedMobileMenu, setIsOpenedMobileMenu] =
+    useRecoilState(recoilMobileMenu);
+  const recoilMobileMenuState: mobileMenu = { ...isOpenedMobileMenu };
+
   const openMobileMenu = () => {
-    setIsOpenedMobileMenu(!isOpenedMobileMenu);
+    recoilMobileMenuState.value = !isOpenedMobileMenu.value;
+    setIsOpenedMobileMenu(recoilMobileMenuState);
   };
+
   return (
     <>
-      {isOpenedMobileMenu ? <MobileMenu /> : null}
+      {isOpenedMobileMenu.value ? <MobileMenu /> : null}
       <div className="nav-bar">
         <NavLink className="nav-text-logo" to={`${process.env.PUBLIC_URL}/`}>
           <div className="animated-text happyhyep-text">happyhyep</div>
