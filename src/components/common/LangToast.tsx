@@ -51,18 +51,19 @@ const LangToast = (props: any) => {
         }
       >
         <ul>
-          {langOptions.map((el) => {
-            if (el.value === loadLocalData(AppConfig.KEYS.LANG)) {
-              return (
-                <section className="checked-lang-wrapper">
-                  <img src={checkedIcon} />
-                  <li onClick={() => changeLangOption(el)}>{el.label}</li>
-                </section>
-              );
-            }
-            // @ts-ignore
-            return <li onClick={() => changeLangOption(el)}>{el.label}</li>;
-          })}
+          {langOptions &&
+            langOptions.map((el) => {
+              if (el.value === loadLocalData(AppConfig.KEYS.LANG)) {
+                return (
+                  <section className="checked-lang-wrapper">
+                    <img src={checkedIcon} />
+                    <li onClick={() => changeLangOption(el)}>{el.label}</li>
+                  </section>
+                );
+              }
+              // @ts-ignore
+              return <li onClick={() => changeLangOption(el)}>{el.label}</li>;
+            })}
         </ul>
       </div>
     </>

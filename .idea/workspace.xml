@@ -4,18 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="한국어, 영어 적용 완료">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AwardBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/getProjectPropsData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/RecoilCounter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/RecoilTodo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/states/recoilCounterState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/states/recoilModalState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/states/recoilTodoState.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/navBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/DashTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/DashTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/LangToast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/EducationData.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Activity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/introduceRandomTextList.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/enum.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +66,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
@@ -98,11 +122,11 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/layout" />
       <recent name="$PROJECT_DIR$/src/components/common" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/utils" />
       <recent name="$PROJECT_DIR$/src/assets/css/pages" />
-      <recent name="$PROJECT_DIR$/src/assets/css/components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -119,7 +143,8 @@
       <workItem from="1704865434546" duration="9788000" />
       <workItem from="1704935531192" duration="11265000" />
       <workItem from="1704950670806" duration="6918000" />
-      <workItem from="1704960544323" duration="12619000" />
+      <workItem from="1704960544323" duration="13506000" />
+      <workItem from="1705020707489" duration="24523000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -170,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704969707329</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="한국어, 영어 적용 완료">
+      <created>1704974033999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704974033999</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +227,8 @@
     <MESSAGE value="topbar 폴더 수정" />
     <MESSAGE value="navbar 모바일 버수정, lang change 기능 적용" />
     <MESSAGE value="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료" />
+    <MESSAGE value="한국어, 영어 적용 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="한국어, 영어 적용 완료" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

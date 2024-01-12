@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "src/components/common/NavBar";
-import Footer from "src/components/common/Footer";
+import NavBar from "src/components/layout/NavBar";
+import Footer from "src/components/layout/Footer";
 
 export default function Gallery() {
   return (

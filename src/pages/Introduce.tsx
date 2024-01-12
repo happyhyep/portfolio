@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from "react";
-import NavBar from "src/components/common/NavBar";
+import NavBar from "src/components/layout/NavBar";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import profile_image_8 from "src/assets/images/profile_image/profile_image_8.webp";
 import pic1 from "src/assets/images/profile_image/profile_image_2.webp";
 import pic2 from "src/assets/images/profile_image/profile_image_4.webp";
 import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
-import Footer from "src/components/common/Footer";
+import Footer from "src/components/layout/Footer";
 import "../assets/css/pages/introduce.scss";
 import { EducationData } from "src/types/type";
 import DashTitle from "src/components/common/DashTitle";
 import SkillsContainer from "src/components/SkillsContainer";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
+import Layout from "src/components/layout/Layout";
 
 export default function Introduce() {
   const { t } = useTranslation();
@@ -100,96 +101,101 @@ export default function Introduce() {
   photolistAnimationList.forEach((el) => observer.observe(el));
 
   return (
-    <section className="introduce-page">
-      <NavBar></NavBar>
-      <TopBar color="#ffd400" />
-      <div className="introduce-profile-image">
-        <motion.img alt="profile_image_8" src={profile_image_8}></motion.img>
-      </div>
-      <motion.div className="introduce-profile-name">
-        <div className="introduce-page-title-font">Jeong Hye In</div>
-      </motion.div>
+    <Layout>
+      <section className="introduce-page">
+        <TopBar color="#ffd400" />
+        <div className="introduce-profile-image">
+          <motion.img alt="profile_image_8" src={profile_image_8}></motion.img>
+        </div>
+        <motion.div className="introduce-profile-name">
+          <div className="title-font">Jeong Hye In</div>
+        </motion.div>
 
-      <div className="introduce-page-desc">
-        <div>
-          {t("introduce.desc.1p-1")}
-          <br />
-          {t("introduce.desc.1p-2")}
+        <div className="introduce-page-desc">
+          <div>
+            {t("introduce.desc.1p-1")}
+            <br />
+            {t("introduce.desc.1p-2")}
+          </div>
+          <div>
+            {t("introduce.desc.2p-1")}
+            <br />
+            {t("introduce.desc.2p-2")}
+            <br />
+            {t("introduce.desc.2p-3")}
+          </div>
+          <div>
+            {t("introduce.desc.3p-1")}
+            <br />
+            {t("introduce.desc.3p-2")}
+          </div>
+          <div>
+            {t("introduce.desc.4p-1")}
+            <br />
+            {t("introduce.desc.4p-2")}
+          </div>
         </div>
-        <div>
-          {t("introduce.desc.2p-1")}
-          <br />
-          {t("introduce.desc.2p-2")}
-          <br />
-          {t("introduce.desc.2p-3")}
+        <div className="my-photo-list">
+          <img alt="pic1" src={pic1}></img>
+          <img alt="pic2" src={pic2}></img>
+          <img alt="pic3" src={pic3}></img>
         </div>
-        <div>
-          {t("introduce.desc.3p-1")}
-          <br />
-          {t("introduce.desc.3p-2")}
-        </div>
-        <div>
-          {t("introduce.desc.4p-1")}
-          <br />
-          {t("introduce.desc.4p-2")}
-        </div>
-      </div>
-      <div className="my-photo-list">
-        <img alt="pic1" src={pic1}></img>
-        <img alt="pic2" src={pic2}></img>
-        <img alt="pic3" src={pic3}></img>
-      </div>
 
-      <div className="typing-section-wrapper">
-        <div className="my-interested-text">{t("introduce.typing.hello")}</div>
-        <div className="my-interested-text">
-          <strong>
-            <div className="typing-text">{landingTitle}</div>{" "}
-            {t("introduce.typing.my-name")}
-          </strong>
+        <div className="typing-section-wrapper">
+          <div className="my-interested-text">
+            {t("introduce.typing.hello")}
+          </div>
+          <div className="my-interested-text">
+            <strong>
+              <div className="typing-text">{landingTitle}</div>{" "}
+              {t("introduce.typing.my-name")}
+            </strong>
+          </div>
         </div>
-      </div>
 
-      <div className="my-interested-wrapper">
-        <div className="my-interested-text">
-          👩🏻‍💻 {t("introduce.interest.1-desc")}
-          <strong>{t("introduce.interest.1-name")}</strong>
-          {t("introduce.interest.1-like")}
+        <div className="my-interested-wrapper">
+          <div className="my-interested-text">
+            👩🏻‍💻 {t("introduce.interest.1-desc")}
+            <strong>{t("introduce.interest.1-name")}</strong>
+            {t("introduce.interest.1-like")}
+          </div>
+          <div className="my-interested-text">
+            📸 {t("introduce.interest.2-desc")}
+            <strong>{t("introduce.interest.2-name")}</strong>
+            {t("introduce.interest.2-like")}
+          </div>
+          <div className="my-interested-text">
+            🥁 {t("introduce.interest.3-desc")}
+            <strong>{t("introduce.interest.3-name")}</strong>
+            {t("introduce.interest.3-like")}
+          </div>
         </div>
-        <div className="my-interested-text">
-          📸 {t("introduce.interest.2-desc")}
-          <strong>{t("introduce.interest.2-name")}</strong>
-          {t("introduce.interest.2-like")}
+        <div className="contact-wrapper">
+          <div className="my-interested-text">
+            📧 CONTACT | jhi2359@gmail.com
+          </div>
+          <div className="my-interested-text">
+            🐱 GITHUB |{" "}
+            <NavLink className="link-text" to="https://github.com/happyhyep">
+              @happyhyep
+            </NavLink>
+          </div>
         </div>
-        <div className="my-interested-text">
-          🥁 {t("introduce.interest.3-desc")}
-          <strong>{t("introduce.interest.3-name")}</strong>
-          {t("introduce.interest.3-like")}
+        <DashTitle name="Education"></DashTitle>
+        <div className="education-wrapper">
+          {educationList &&
+            educationList.map(function (el: EducationData) {
+              return (
+                <div className="education-text">
+                  {el.name} ({el.period})
+                </div>
+              );
+            })}
         </div>
-      </div>
-      <div className="contact-wrapper">
-        <div className="my-interested-text">📧 CONTACT | jhi2359@gmail.com</div>
-        <div className="my-interested-text">
-          🐱 GITHUB |{" "}
-          <NavLink className="link-text" to="https://github.com/happyhyep">
-            @happyhyep
-          </NavLink>
-        </div>
-      </div>
-      <DashTitle name="Education"></DashTitle>
-      <div className="education-wrapper">
-        {educationList.map(function (el: EducationData) {
-          return (
-            <div className="education-text">
-              {el.name} ({el.period})
-            </div>
-          );
-        })}
-      </div>
-      <DashTitle name="Skills"></DashTitle>
-      <SkillsContainer />
-      <Footer />
-    </section>
+        <DashTitle name="Skills"></DashTitle>
+        <SkillsContainer />
+      </section>
+    </Layout>
   );
 }
 
