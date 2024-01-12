@@ -1,86 +1,85 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useInView } from "framer-motion";
-import NavBar from "src/components/common/NavBar";
+import NavBar from "src/components/layout/NavBar";
 import title from "src/assets/images/title.webp";
-import Footer from "src/components/common/Footer";
+import Footer from "src/components/layout/Footer";
 import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
 import { observer } from "src/utils/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
+import Layout from "src/components/layout/Layout";
 
 export default function Home() {
   const { t } = useTranslation();
 
-  const [landingTitle, setLandingTitle] = useState("");
-  const [count, setCount] = useState(0);
-  const [textNum, setTextNum] = useState(0);
+  // const [landingTitle, setLandingTitle] = useState("");
+  // const [count, setCount] = useState(0);
+  // const [textNum, setTextNum] = useState(0);
 
   const textAnimationList = document.querySelectorAll(".aaa");
   const imageAnimationList = document.querySelectorAll(".profile");
   // 반복문을 돌려 모든 DOM에 적용
   textAnimationList.forEach((el) => observer.observe(el));
   imageAnimationList.forEach((el) => observer.observe(el));
-
   return (
-    <section className="home-page">
-      <NavBar></NavBar>
-      <TopBar color="#93C6D5" />
-      <motion.img
-        alt="title"
-        src={title}
-        style={{ width: "100%" }}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          duration: 1,
-          delay: 0.5,
-          ease: [0, 0.2, 0.5, 1.01],
-        }}
-      ></motion.img>
+    <Layout>
+      <section className="home-page">
+        <TopBar color="#93C6D5" />
+        <motion.img
+          alt="title"
+          src={title}
+          style={{ width: "100%" }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 1,
+            delay: 0.5,
+            ease: [0, 0.2, 0.5, 1.01],
+          }}
+        ></motion.img>
+        <div className="profile-container">
+          <div className="profile-img-wrapper">
+            <img alt="pic3" src={pic3}></img>
+          </div>
 
-      <div className="profile-container">
-        <div className="profile-img-wrapper">
-          <img alt="pic3" src={pic3}></img>
-        </div>
-
-        <div className="profile-text-wrapper">
-          <div className="profile-introduce-title-container">
-            <div>{t("home.title-hello")}</div>
-            <div className="profile-introduce-subtitle-box">
-              <strong>{t("home.title-always-happy")}</strong>
-              <div className="profile-introduce-subtitle-2">
-                {t("home.title-my-name")}
+          <div className="profile-text-wrapper">
+            <div className="profile-introduce-title-container">
+              <div>{t("home.title-hello")}</div>
+              <div className="profile-introduce-subtitle-box">
+                <strong>{t("home.title-always-happy")}</strong>
+                <div className="profile-introduce-subtitle-2">
+                  {t("home.title-my-name")}
+                </div>
               </div>
             </div>
-          </div>
-          <div className="profile-introduce-desc">
-            <div>
-              {t("home.desc-1p-1")}
-              <br />
-              {t("home.desc-1p-2")}
+            <div className="profile-introduce-desc">
+              <div>
+                {t("home.desc-1p-1")}
+                <br />
+                {t("home.desc-1p-2")}
+              </div>
+              <div>
+                {t("home.desc-2p-1")}
+                <br />
+                {t("home.desc-2p-2")}
+                <br />
+                {t("home.desc-2p-3")}
+              </div>
+              <div>{t("home.desc-3p-1")}</div>
             </div>
-            <div>
-              {t("home.desc-2p-1")}
-              <br />
-              {t("home.desc-2p-2")}
-              <br />
-              {t("home.desc-2p-3")}
-            </div>
-            <div>{t("home.desc-3p-1")}</div>
           </div>
         </div>
-      </div>
-      <div className="btn-container">
-        <NavLink
-          className="to-introduce-btn"
-          to={`${process.env.PUBLIC_URL}/introduce`}
-        >
-          to Introduce Menu
-        </NavLink>
-      </div>
-      <Footer />
-    </section>
+        <div className="btn-container">
+          <NavLink
+            className="to-introduce-btn"
+            to={`${process.env.PUBLIC_URL}/introduce`}
+          >
+            to Introduce Menu
+          </NavLink>
+        </div>
+      </section>
+    </Layout>
   );
 }
 
