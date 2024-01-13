@@ -15,7 +15,7 @@
       align-items: center;
       .animated-text {
         color: transparent;
-        cursor: pointer;
+        cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
         background: conic-gradient(
                         #00a6c6 10%,
                         #01c7b7 20%,
@@ -95,10 +95,11 @@
            font-family: Noto Sans KR;
            color: $colorBlack;
            text-decoration: none;
+        cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
       }
       img {
         height: 4rem;
-        cursor: pointer;
+        cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
       }
     }
     .mobile-header-right {
@@ -118,7 +119,7 @@
         gap: 3rem;
         margin-right: 5rem;
         img:nth-child(1) {
-          cursor: pointer;
+          cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
           height: 6rem;
         }
         img:nth-child(3) {
@@ -171,7 +172,7 @@
       padding: 0;
       text-align: center;
       li {
-        cursor: pointer;
+        cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
         padding: 1.5rem 0 1.5rem 2rem;
       }
       .checked-lang-wrapper {
