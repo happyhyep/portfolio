@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { STACK_NAME } from "src/types/enum";
 import github from "src/assets/icons/github.webp";
-import VideoModal from "src/components/VideoModal";
 import { useRecoilState } from "recoil";
 import { ModalState, recoilModalState } from "src/states/recoilModalState";
 
@@ -52,16 +51,6 @@ const ProjectComponent = (props: any) => {
         </div>
       </div>
       <div className="project-btn-container">
-        {/* <div style={{display: 'flex', justifyContent: 'end', marginTop: '5px', marginRight: '50px'}}>
-                      <VideoButton onClick={onVideoModalOpen1} style={{display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer'}}>VIDEO 보기 → </VideoButton>
-                  </div> */}
-        {/*{isVideoModalOpen1 ? (*/}
-        {/*  <VideoModal*/}
-        {/*    setIsVideoModalOpen={setIsVideoModalOpen1}*/}
-        {/*    video={focuz_video}*/}
-        {/*    pageNumber={1}*/}
-        {/*  />*/}
-        {/*) : null}*/}
         <div>
           {props.data.isHaveWeb ? (
             <NavLink className="project-btn" to={props.data.webLink}>
@@ -76,9 +65,6 @@ const ProjectComponent = (props: any) => {
           </button>
         ) : null}
 
-        {/*{isVideoModalOpen.value ? (*/}
-        {/*  <VideoModal video={props.data.videoLink} />*/}
-        {/*) : null}*/}
         {props.data.isHaveGithub ? (
           <NavLink className="project-btn" to={props.data.githubLink}>
             <img alt="github" src={github}></img>
@@ -86,16 +72,6 @@ const ProjectComponent = (props: any) => {
           </NavLink>
         ) : null}
       </div>
-      {/*<div style={{ display: "flex", justifyContent: "center" }}>*/}
-      {/*  <video*/}
-      {/*    width="600"*/}
-      {/*    controls={true}*/}
-      {/*    ref={videoRef}*/}
-      {/*    onCanPlay={() => setPlayBackRate()}*/}
-      {/*  >*/}
-      {/*    <source src={props.data.videoLink} type="video/mp4" />*/}
-      {/*  </video>*/}
-      {/*</div>*/}
     </div>
   );
 };
