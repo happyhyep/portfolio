@@ -6,6 +6,7 @@
   }
 
   .project-component {
+    margin: 0 10rem;
     display: flex;
     flex-direction: column;
     .project-content {
@@ -14,7 +15,7 @@
       align-items: center;
       gap: 5rem;
       img {
-        width: 62.5rem;
+        width: 45%;
       }
 
       .project-desc {
@@ -58,6 +59,24 @@
       margin: 5rem 8rem 0 0;
     }
   }
+
+  .slick-prev {
+    cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
+  }
+  .slick-next {
+    cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
+  }
+.slick-prev:before {
+  opacity: 1;
+  color: black;
+}
+  .slick-next:before {
+    opacity: 1;
+    color: black;
+  }
+  .slick-dots li button {
+    cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
+  }
 }
 
 .video-modal {
@@ -72,7 +91,7 @@
     z-index: 5;
     right: 3rem;
     top: 3rem;
-    cursor: pointer;
+    cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
     font-size: 3rem;
     color: $colorBlack;
     background-color: $colorWhite;
