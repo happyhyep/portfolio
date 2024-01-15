@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="이미지 preload">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/commonImageList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/commonImageList.ts" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="폰트 preload">
+      <change beforePath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <workItem from="1705020707489" duration="39680000" />
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
-      <workItem from="1705279111187" duration="17165000" />
+      <workItem from="1705279111187" duration="17284000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -313,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705300434184</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="폰트 preload">
+      <created>1705300623518</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1705300623518</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="홈화면 리팩토링" />
     <MESSAGE value="project 페이지 이미지 변경, 추가" />
     <MESSAGE value="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화" />
     <MESSAGE value="topbar 폴더 수정" />
@@ -356,7 +360,8 @@
     <MESSAGE value="introduce 버튼 크기 조정" />
     <MESSAGE value="skills 컴포넌트 스타일 수정" />
     <MESSAGE value="이미지 preload" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 preload" />
+    <MESSAGE value="폰트 preload" />
+    <option name="LAST_COMMIT_MESSAGE" value="폰트 preload" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
