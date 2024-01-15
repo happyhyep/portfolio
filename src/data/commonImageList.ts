@@ -124,4 +124,16 @@ export const commonImageList: preloadImgInterface[] = [
     key: "sanjose",
     url: "assets/images/awards/award_sanjose.webp",
   },
+  {
+    key: "redemption",
+    url: "https://fonts.cdnfonts.com/s/23565/Redemption.woff",
+  },
+  {
+    key: "notosans",
+    url: "https://fonts.gstatic.com/s/notosanskr/v36/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoyeLHq8H4gdeG6cl5G3CHlodySd_ke-3HNnn9yQA.0.woff2",
+  },
+  {
+    key: "ice-jaram",
+    url: "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2",
+  },
 ];
