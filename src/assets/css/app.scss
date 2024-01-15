@@ -7,10 +7,18 @@
 @import "pages/awards";
 @import "pages/introduce";
 @import "pages/projects";
+@import "pages/activities";
+@import "pages/gallery";
 
 @import "components/navBar";
 @import "components/footer";
 @import "components/mobileMenu";
 * {
   cursor: url("/assets/icons/favicon.png"), url("/assets/icons/favicon.cur"), auto;
+
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+*::-webkit-scrollbar {
+  display: none;
 }
