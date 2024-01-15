@@ -130,10 +130,14 @@ export const commonImageList: preloadImgInterface[] = [
   },
   {
     key: "notosans",
-    url: "https://fonts.gstatic.com/s/notosanskr/v36/PbyxFmXiEBPT4ITbgNA5Cgms3VYcOA-vvnIzzuoyeLHq8H4gdeG6cl5G3CHlodySd_ke-3HNnn9yQA.0.woff2",
+    url: "https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap",
   },
   {
     key: "ice-jaram",
     url: "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2",
+  },
+  {
+    key: "pretendard",
+    url: "https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff",
   },
 ];

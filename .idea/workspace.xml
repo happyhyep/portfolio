@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="noto sans kr 폰트 수정">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="애플 폰트 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/font.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/commonImageList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/commonImageList.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,7 @@
       <workItem from="1705020707489" duration="39680000" />
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
-      <workItem from="1705279111187" duration="18070000" />
+      <workItem from="1705279111187" duration="18524000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -333,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705300966630</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="애플 폰트 추가">
+      <created>1705301622808</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1705301622808</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +360,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="topbar 폴더 수정" />
     <MESSAGE value="navbar 모바일 버수정, lang change 기능 적용" />
     <MESSAGE value="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료" />
     <MESSAGE value="한국어, 영어 적용 완료" />
@@ -376,7 +384,8 @@
     <MESSAGE value="폰트 preload" />
     <MESSAGE value="쿠버네티스 제거" />
     <MESSAGE value="noto sans kr 폰트 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="noto sans kr 폰트 수정" />
+    <MESSAGE value="애플 폰트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="애플 폰트 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
