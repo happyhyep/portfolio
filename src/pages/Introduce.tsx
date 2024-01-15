@@ -105,7 +105,11 @@ export default function Introduce() {
       <section className="introduce-page">
         <TopBar color="#ffd400" />
         <div className="introduce-profile-image">
-          <motion.img alt="profile_image_8" src={profile_image_8}></motion.img>
+          <motion.img
+            alt="profile_image_8"
+            src={profile_image_8}
+            width="500px"
+          ></motion.img>
         </div>
         <motion.div className="introduce-profile-name">
           <div className="title-font">Jeong Hye In</div>

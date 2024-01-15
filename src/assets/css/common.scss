@@ -70,3 +70,14 @@ html {
   height: 100%;
   z-index: 3;
 }
+
+body::after{
+  position:absolute;
+  width:0;
+  height:0;
+  overflow:hidden;
+  z-index:-1;
+
+  content:url("/assets/images/title.webp")
+
+}

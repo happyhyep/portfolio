@@ -3,7 +3,7 @@ import award_sanjose from "src/assets/images/awards/award_sanjose.webp";
 import award_dcom from "src/assets/images/awards/award_dcom.webp";
 import award_edu from "src/assets/images/awards/award_edu.webp";
 import award_money from "src/assets/images/awards/award_money.webp";
-import { observer } from "src/utils/IntersectionObserver";
+import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import Layout from "src/components/layout/Layout";
 import AwardBox from "src/components/AwardBox";

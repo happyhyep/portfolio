@@ -32,3 +32,8 @@ export interface ProjectDataInterface {
   githubLink: string | null;
   videoLink: string | null;
 }
+
+export interface preloadImgInterface {
+  key: string;
+  url: string;
+}

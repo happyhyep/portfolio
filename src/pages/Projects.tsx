@@ -7,7 +7,7 @@ import Layout from "src/components/layout/Layout";
 import TopBar from "src/components/common/TopBar";
 import DashTitle from "src/components/common/DashTitle";
 import ProjectComponent from "src/components/ProjectComponent";
-import getProjectPropsData from "src/lib/getProjectPropsData";
+import getProjectPropsData from "src/lib/worker/getProjectPropsData";
 
 export default function Projects() {
   function SamplePrevArrow(props: any) {

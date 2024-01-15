@@ -5,7 +5,7 @@ import title from "src/assets/images/title.webp";
 import Footer from "src/components/layout/Footer";
 import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
-import { observer } from "src/utils/IntersectionObserver";
+import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
 import Layout from "src/components/layout/Layout";
@@ -29,14 +29,16 @@ export default function Home() {
         <motion.img
           alt="title"
           src={title}
-          style={{ width: "100%" }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          style={{ width: "100%", height: "100%" }}
           transition={{
             duration: 1,
             delay: 0.5,
             ease: [0, 0.2, 0.5, 1.01],
           }}
+          width="1905px"
+          height="1107.470px"
         ></motion.img>
         <div className="profile-container">
           <div className="profile-img-wrapper">
@@ -75,7 +77,7 @@ export default function Home() {
             className="to-introduce-btn"
             to={`${process.env.PUBLIC_URL}/introduce`}
           >
-            to Introduce Menu
+            Introduce Menu →
           </NavLink>
         </div>
       </section>
