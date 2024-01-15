@@ -39,31 +39,46 @@
     align-items: center;
     gap: 7.5rem;
     padding: 7.5rem 0;
-    .box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .box-container {
         width: 70%;
-        gap: 5rem;
-        //margin-top: 3%;
-        padding: 3%;
-        background-color: $colorWhite;
-        border-radius: 2rem;
-        box-shadow: 0.375rem 0.375rem 2.5rem 0.75rem $colorGray300;
-        font-family: "Noto Sans KR";
-        color: $colorBrown100;
-        img {
-            width: 50%;
-            //margin-top: 5%;
-            //margin-bottom: 3%;
-        }
-        div {
-            font-size: 2rem;
+        transform: translateX(20%);
+        opacity: 0;
+        transition: .8s;
+        .box {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            //margin-bottom: 3%;
+            gap: 5rem;
+            //margin-top: 3%;
+            padding: 3%;
+            background-color: $colorWhite;
+            border-radius: 2rem;
+            box-shadow: 0.375rem 0.375rem 2.5rem 0.75rem $colorGray300;
+            font-family: "Noto Sans KR";
+            color: $colorBrown100;
+
+
+
+            img {
+                width: 50%;
+                //margin-top: 5%;
+                //margin-bottom: 3%;
+            }
+
+            div {
+                font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                //margin-bottom: 3%;
+            }
         }
-    }
+
+    }        .box-container.active {
+                     transform: translate3d(0,10,30);
+                 transform: translateX(0);
+                 opacity: 1;
+             }
+
 }

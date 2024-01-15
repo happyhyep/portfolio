@@ -1,20 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import Layout from "src/components/layout/Layout";
 import AwardBox from "src/components/AwardBox";
 import { AwardData } from "src/types/type";
 import { useTranslation } from "react-i18next";
-
 export default function Awards() {
   const { t } = useTranslation();
 
   // TODO redux로 관리해서 InsertsectionObserver 함수에서 상태 변화시키기
   const [isBoxShown, setIsBoxShown] = useState(false);
 
-  const award4Box = document.querySelectorAll(".award-box-container");
-
-  award4Box.forEach((el) => observer.observe(el));
+  const awardBox = document.querySelectorAll(".box-container");
+  awardBox.forEach((el) => observer.observe(el));
 
   const awardsList: AwardData[] = [
     {
