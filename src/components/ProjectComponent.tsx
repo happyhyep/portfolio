@@ -60,7 +60,7 @@ const ProjectComponent = (props: any) => {
 
         {props.data.isHaveVideo ? (
           <button className="project-btn" onClick={changeVideoModalState}>
-            VIDEO 보기 →{" "}
+            VIDEO →{" "}
           </button>
         ) : null}
 
