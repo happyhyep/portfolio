@@ -1,17 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4ba10680.css",
-    "main.js": "/portfolio/static/js/main.cbeca842.js",
-    "static/media/구현영상.mp4": "/portfolio/static/media/구현영상.706b44bfa0f87e37eef0.mp4",
-    "static/media/BBuRing.mp4": "/portfolio/static/media/BBuRing.7e08dd41fc24cb0fa788.mp4",
-    "static/media/eclipse.mp4": "/portfolio/static/media/eclipse.ed866deca94b0fac2cfd.mp4",
-    "static/media/gallery.mp4": "/portfolio/static/media/gallery.bf7e1892f26a62d35262.mp4",
-    "static/media/profile_image_3.webp": "/portfolio/static/media/profile_image_3.a90e41d7013516c02218.webp",
-    "static/media/profile_image_4.webp": "/portfolio/static/media/profile_image_4.486eba0be066e8a1765b.webp",
-    "static/media/profile_image_8.webp": "/portfolio/static/media/profile_image_8.4ff065e01655d5f4d0f1.webp",
-    "static/media/profile_image_2.webp": "/portfolio/static/media/profile_image_2.34a5229baa6fc2a021ba.webp",
+    "main.css": "/portfolio/static/css/main.2ca5b33b.css",
+    "main.js": "/portfolio/static/js/main.65f02643.js",
     "static/media/happyhyep.svg": "/portfolio/static/media/happyhyep.c87d8c92d5ea05e9b348baf4366e3a13.svg",
-    "static/media/title.webp": "/portfolio/static/media/title.c267ca9194e9b2a4cdce.webp",
     "static/media/nfm-trd-2023.webp": "/portfolio/static/media/nfm-trd-2023.f03dcd64b074dfe2b81f.webp",
     "static/media/eclipse.webp": "/portfolio/static/media/eclipse.e7f7a37508e8da5decad.webp",
     "static/media/focuz.webp": "/portfolio/static/media/focuz.2e1564c789573fdee747.webp",
@@ -29,19 +20,24 @@
     "static/media/velog.webp": "/portfolio/static/media/velog.8cfd492231d67117c0aa.webp",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/angry.cur": "/portfolio/static/media/angry.dd9669e7cce5511307cb.cur",
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/lang.svg": "/portfolio/static/media/lang.1ec7ced5501b96f3c55d992bbe47fbde.svg",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/favicon.cur": "/portfolio/static/media/favicon.dbd51f7045815cb6a421.cur",
     "index.html": "/portfolio/index.html",
     "static/media/menu.svg": "/portfolio/static/media/menu.bf46b0eaa841fe81f3897f8f3bfb8d94.svg",
     "static/media/check.svg": "/portfolio/static/media/check.e6c00b7bfa02d9861612f35d23d56409.svg",
     "static/media/close.svg": "/portfolio/static/media/close.535047fa388f84db2bc29415ef5b81e3.svg",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.c9412af40349e4e59cb207e6603f0b7f.svg",
-    "main.4ba10680.css.map": "/portfolio/static/css/main.4ba10680.css.map",
-    "main.cbeca842.js.map": "/portfolio/static/js/main.cbeca842.js.map"
+    "static/media/BBuRing.mp4": "/portfolio/static/media/BBuRing.31d6cfe0d16ae931b73c.mp4",
+    "static/media/eclipse.mp4": "/portfolio/static/media/eclipse.31d6cfe0d16ae931b73c.mp4",
+    "static/media/focuz.mp4": "/portfolio/static/media/focuz.31d6cfe0d16ae931b73c.mp4",
+    "static/media/gallery.mp4": "/portfolio/static/media/gallery.31d6cfe0d16ae931b73c.mp4",
+    "main.2ca5b33b.css.map": "/portfolio/static/css/main.2ca5b33b.css.map",
+    "main.65f02643.js.map": "/portfolio/static/js/main.65f02643.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba10680.css",
-    "static/js/main.cbeca842.js"
+    "static/css/main.2ca5b33b.css",
+    "static/js/main.65f02643.js"
   ]
 }
