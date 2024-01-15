@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2a28f680.css",
-    "main.js": "/portfolio/static/js/main.ecf6c181.js",
+    "main.css": "/portfolio/static/css/main.28ef0035.css",
+    "main.js": "/portfolio/static/js/main.3d94c4ed.js",
     "static/media/AppleSDGothicNeoR.woff2": "/portfolio/static/media/AppleSDGothicNeoR.bf7df0deab61e85edf6a.woff2",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "static/media/favicon.cur": "/portfolio/static/media/favicon.dbd51f7045815cb6a421.cur",
     "index.html": "/portfolio/index.html",
-    "main.2a28f680.css.map": "/portfolio/static/css/main.2a28f680.css.map",
-    "main.ecf6c181.js.map": "/portfolio/static/js/main.ecf6c181.js.map"
+    "main.28ef0035.css.map": "/portfolio/static/css/main.28ef0035.css.map",
+    "main.3d94c4ed.js.map": "/portfolio/static/js/main.3d94c4ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a28f680.css",
-    "static/js/main.ecf6c181.js"
+    "static/css/main.28ef0035.css",
+    "static/js/main.3d94c4ed.js"
   ]
 }
