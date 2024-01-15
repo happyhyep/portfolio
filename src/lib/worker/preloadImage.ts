@@ -1,25 +1,11 @@
-import { projectImageList } from "src/data/projectImageList";
+import { commonImageList } from "src/data/commonImageList";
 
 export const preloadImage = (page: string) => {
-  const imgArray: { src: string }[] = [];
-  projectImageList.map((item, index) => {
+  const imgArray: HTMLImageElement[] = [];
+
+  commonImageList.map((item, index) => {
     imgArray[index] = new Image();
     imgArray[index].src = item.url;
+    console.log(imgArray[index].src);
   });
-  // if (page === "ResultPage") {
-  //   resultPagePreloadImageSet.map((item, index) => {
-  //     imgArray[index] = new Image();
-  //     imgArray[index].src = item.url;
-  //   });
-  // } else if (page === "SharePage") {
-  //   sharePagePreloadImageSet.map((item, index) => {
-  //     imgArray[index] = new Image();
-  //     imgArray[index].src = item.url;
-  //   });
-  // } else {
-  //   contentsImageList.map((item, index) => {
-  //     imgArray[index] = new Image();
-  //     imgArray[index].src = item.url;
-  //   });
-  // }
 };

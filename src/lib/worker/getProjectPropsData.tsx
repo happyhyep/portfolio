@@ -2,26 +2,13 @@ import { ProjectDataInterface } from "src/types/type";
 import { STACK_NAME } from "src/types/enum";
 import { useTranslation } from "react-i18next";
 
-import esim from "src/assets/images/projects/world-esim.webp";
-import esimadmin from "src/assets/images/projects/world-esim-admin.webp";
-import nfmtrd2023 from "src/assets/images/projects/nfm-trd-2023.webp";
-import focuz from "src/assets/images/projects/focuz.webp";
-import focuz_video from "src/assets/images/projects/구현영상.mp4";
-import bburing_log from "src/assets/images/projects/BBuRing.webp";
-import bburing_log_video from "src/assets/images/projects/BBuRing.mp4";
-import eclipse from "src/assets/images/projects/eclipse.webp";
-import eclipse_video from "src/assets/images/projects/eclipse.mp4";
-import gallery from "src/assets/images/projects/gallery.webp";
-import gallery_video from "src/assets/images/projects/gallery.mp4";
-import apart from "src/assets/images/projects/apartment.webp";
-
 export default function getProjectPropsData() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { t } = useTranslation();
   const propsObj: ProjectDataInterface[] = [
     {
       idx: 8,
-      img: esim,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/world-esim.webp",
       title: t("projects.esim.title"),
       subtitle: t("projects.esim.subtitle"),
       user: t("projects.esim.user"),
@@ -50,7 +37,9 @@ export default function getProjectPropsData() {
     },
     {
       idx: 7,
-      img: esimadmin,
+      img:
+        process.env.PUBLIC_URL +
+        "/assets/images/projects/world-esim-admin.webp",
       title: t("projects.esim-admin.title"),
       subtitle: t("projects.esim-admin.subtitle"),
       user: t("projects.esim-admin.user"),
@@ -79,7 +68,7 @@ export default function getProjectPropsData() {
     },
     {
       idx: 6,
-      img: nfmtrd2023,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/nfm-trd-2023.webp",
       title: t("projects.nfm-trd.title"),
       subtitle: t("projects.nfm-trd.subtitle"),
       user: t("projects.nfm-trd.user"),
@@ -108,7 +97,7 @@ export default function getProjectPropsData() {
     },
     {
       idx: 5,
-      img: focuz,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/focuz.webp",
       title: t("projects.focuz.title"),
       subtitle: t("projects.focuz.subtitle"),
       user: t("projects.focuz.user"),
@@ -131,11 +120,11 @@ export default function getProjectPropsData() {
       isHaveVideo: true,
       webLink: null,
       githubLink: "https://github.com/happyhyep/FOCUZ",
-      videoLink: focuz_video,
+      videoLink: process.env.PUBLIC_URL + "/assets/images/projects/focuz.mp4",
     },
     {
       idx: 4,
-      img: bburing_log,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/BBuRing.webp",
       title: t("projects.bburing.title"),
       subtitle: t("projects.bburing.subtitle"),
       user: null,
@@ -153,11 +142,11 @@ export default function getProjectPropsData() {
       isHaveVideo: true,
       webLink: null,
       githubLink: "https://github.com/happyhyep/BBuRing_log",
-      videoLink: bburing_log_video,
+      videoLink: process.env.PUBLIC_URL + "/assets/images/projects/BBuRing.mp4",
     },
     {
       idx: 3,
-      img: eclipse,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/eclipse.webp",
       title: t("projects.eclipse.title"),
       subtitle: t("projects.eclipse.subtitle"),
       user: null,
@@ -175,11 +164,11 @@ export default function getProjectPropsData() {
       isHaveVideo: true,
       webLink: null,
       githubLink: "https://github.com/happyhyep/Eclipse",
-      videoLink: eclipse_video,
+      videoLink: process.env.PUBLIC_URL + "/assets/images/projects/eclipse.mp4",
     },
     {
       idx: 2,
-      img: gallery,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/gallery.webp",
       title: t("projects.gallery.title"),
       subtitle: t("projects.gallery.subtitle"),
       user: null,
@@ -197,11 +186,11 @@ export default function getProjectPropsData() {
       isHaveVideo: true,
       webLink: null,
       githubLink: "https://github.com/happyhyep/gallery-web",
-      videoLink: gallery_video,
+      videoLink: process.env.PUBLIC_URL + "/assets/images/projects/gallery.mp4",
     },
     {
       idx: 1,
-      img: apart,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/apartment.webp",
       title: t("projects.apartment.title"),
       subtitle: t("projects.apartment.subtitle"),
       user: null,

@@ -2,12 +2,6 @@ import React, { useEffect, useState } from "react";
 import NavBar from "src/components/layout/NavBar";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import profile_image_8 from "src/assets/images/profile_image/profile_image_8.webp";
-import pic1 from "src/assets/images/profile_image/profile_image_2.webp";
-import pic2 from "src/assets/images/profile_image/profile_image_4.webp";
-import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
-import Footer from "src/components/layout/Footer";
-import "../assets/css/pages/introduce.scss";
 import { EducationData } from "src/types/type";
 import DashTitle from "src/components/common/DashTitle";
 import SkillsContainer from "src/components/SkillsContainer";
@@ -107,7 +101,10 @@ export default function Introduce() {
         <div className="introduce-profile-image">
           <motion.img
             alt="profile_image_8"
-            src={profile_image_8}
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/profile_image/profile_image_8.webp"
+            }
             width="500px"
           ></motion.img>
         </div>
@@ -140,9 +137,27 @@ export default function Introduce() {
           </div>
         </div>
         <div className="my-photo-list">
-          <img alt="pic1" src={pic1}></img>
-          <img alt="pic2" src={pic2}></img>
-          <img alt="pic3" src={pic3}></img>
+          <img
+            alt="pic1"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/profile_image/profile_image_2.webp"
+            }
+          ></img>
+          <img
+            alt="pic2"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/profile_image/profile_image_7.webp"
+            }
+          ></img>
+          <img
+            alt="pic3"
+            src={
+              process.env.PUBLIC_URL +
+              "/assets/images/profile_image/profile_image_3.webp"
+            }
+          ></img>
         </div>
 
         <div className="typing-section-wrapper">

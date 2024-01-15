@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import menuIcon from "src/assets/icons/menu.svg";
 import LangToast from "src/components/common/LangToast";
 import MobileMenu from "src/components/common/MobileMenu";
 import { useRecoilState } from "recoil";
@@ -59,7 +58,10 @@ const NavBar = () => {
         </div>
         <div className="mobile-header-right">
           <LangToast isMobile={true} />
-          <img onClick={openMobileMenu} src={menuIcon} />
+          <img
+            onClick={openMobileMenu}
+            src={process.env.PUBLIC_URL + "/assets/icons/menu.svg"}
+          />
         </div>
       </div>
     </>

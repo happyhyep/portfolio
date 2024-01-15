@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React, { useEffect, useLayoutEffect } from "react";
 import "./assets/css/app.scss";
 import Router from "./router/index";
 import { preloadImage } from "src/lib/worker/preloadImage";
@@ -6,7 +6,9 @@ import { preloadImage } from "src/lib/worker/preloadImage";
 function App() {
   let page = "";
 
-  useLayoutEffect(() => {
+  useEffect(() => {
+    console.log("11");
+
     if (window.location.href.includes("introduce")) {
       page = "IntroducePage";
     } else if (window.location.href.includes("projects")) {
@@ -14,8 +16,8 @@ function App() {
     }
 
     preloadImage(page);
-    console.log("ww");
-  });
+    console.log("22");
+  }, []);
   return (
     <>
       <Router></Router>

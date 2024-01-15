@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import langIcon from "src/assets/icons/lang.svg";
 import { loadLocalData, saveLocalData } from "src/utils/common-util";
 import AppConfig from "src/constants";
-import checkedIcon from "src/assets/icons/check.svg";
 import { useTranslation } from "react-i18next";
 import { SelectOptionInterface } from "src/types/type";
 import i18n from "src/lang/index";
@@ -44,7 +42,12 @@ const LangToast = (props: any) => {
 
   return (
     <>
-      <img onClick={openLangToast} src={langIcon} />
+      <img
+        onClick={openLangToast}
+        src="assets/icons/lang.svg"
+        width="30px"
+        height="4rem"
+      />
       <div
         className={
           props.isMobile ? "hidden-lang-toast-mobile" : "hidden-lang-toast"
@@ -56,7 +59,9 @@ const LangToast = (props: any) => {
               if (el.value === loadLocalData(AppConfig.KEYS.LANG)) {
                 return (
                   <section className="checked-lang-wrapper">
-                    <img src={checkedIcon} />
+                    <img
+                      src={process.env.PUBLIC_URL + "/assets/icons/check.svg"}
+                    />
                     <li onClick={() => changeLangOption(el)}>{el.label}</li>
                   </section>
                 );

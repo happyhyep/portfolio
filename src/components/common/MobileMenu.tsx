@@ -1,9 +1,6 @@
 import React from "react";
 import { useRecoilState } from "recoil";
 import { mobileMenu, recoilMobileMenu } from "src/states/recoilMobileMenu";
-import closeIcon from "src/assets/icons/close.svg";
-import logo from "src/assets/images/happyhyep.svg";
-import arrow from "src/assets/icons/arrow.svg";
 import { NavLink } from "react-router-dom";
 
 const MobileMenu = () => {
@@ -29,11 +26,14 @@ const MobileMenu = () => {
   return (
     <div className="mobileMenu">
       <div className="close-btn-wrapper">
-        <img onClick={closeMobileMenu} src={closeIcon} />
+        <img
+          onClick={closeMobileMenu}
+          src={process.env.PUBLIC_URL + "/assets/icons/close.svg"}
+        />
       </div>
 
       <div className="logo-wrapper">
-        <img src={logo} />
+        <img src={process.env.PUBLIC_URL + "/assets/images/happyhyep.svg"} />
       </div>
       <div className="menu-wrapper">
         <NavLink
@@ -42,7 +42,7 @@ const MobileMenu = () => {
           className="menu"
         >
           <div className="menu-text">Introduce</div>
-          <img src={arrow} />
+          <img src={process.env.PUBLIC_URL + "/assets/icons/arrow.svg"} />
         </NavLink>
         <NavLink
           to={`${process.env.PUBLIC_URL}/awards`}
@@ -50,7 +50,7 @@ const MobileMenu = () => {
           className="menu"
         >
           <div className="menu-text">Awards</div>
-          <img src={arrow} />
+          <img src={process.env.PUBLIC_URL + "/assets/icons/arrow.svg"} />
         </NavLink>
         <NavLink
           to={`${process.env.PUBLIC_URL}/projects`}
@@ -58,7 +58,7 @@ const MobileMenu = () => {
           className="menu"
         >
           <div className="menu-text">Projects</div>
-          <img src={arrow} />
+          <img src={process.env.PUBLIC_URL + "/assets/icons/arrow.svg"} />
         </NavLink>
         <NavLink
           to={`${process.env.PUBLIC_URL}/activities`}
@@ -66,7 +66,7 @@ const MobileMenu = () => {
           className="menu"
         >
           <div className="menu-text">Activities</div>
-          <img src={arrow} />
+          <img src={process.env.PUBLIC_URL + "/assets/icons/arrow.svg"} />
         </NavLink>
         <NavLink
           to={`${process.env.PUBLIC_URL}/gallery`}
@@ -74,7 +74,7 @@ const MobileMenu = () => {
           className="menu"
         >
           <div className="menu-text">Gallery</div>
-          <img src={arrow} />
+          <img src={process.env.PUBLIC_URL + "/assets/icons/arrow.svg"} />
         </NavLink>
       </div>
     </div>

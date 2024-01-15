@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import award_sanjose from "src/assets/images/awards/award_sanjose.webp";
-import award_dcom from "src/assets/images/awards/award_dcom.webp";
-import award_edu from "src/assets/images/awards/award_edu.webp";
-import award_money from "src/assets/images/awards/award_money.webp";
 import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import Layout from "src/components/layout/Layout";
@@ -24,22 +20,22 @@ export default function Awards() {
     {
       key: "money",
       name: t("awards.money"),
-      img: award_money,
+      img: process.env.PUBLIC_URL + "/assets/images/awards/award_money.webp",
     },
     {
       key: "sanjose",
       name: t("awards.sanjose"),
-      img: award_sanjose,
+      img: process.env.PUBLIC_URL + "/assets/images/awards/award_sanjose.webp",
     },
     {
       key: "khu",
       name: t("awards.khu"),
-      img: award_dcom,
+      img: process.env.PUBLIC_URL + "/assets/images/awards/award_dcom.webp",
     },
     {
       key: "edu",
       name: t("awards.edu"),
-      img: award_edu,
+      img: process.env.PUBLIC_URL + "/assets/images/awards/award_edu.webp",
     },
   ];
 

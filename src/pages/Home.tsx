@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useInView } from "framer-motion";
-import NavBar from "src/components/layout/NavBar";
-import title from "src/assets/images/title.webp";
-import Footer from "src/components/layout/Footer";
-import pic3 from "src/assets/images/profile_image/profile_image_3.webp";
+// import pic3 from "assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
 import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
@@ -12,10 +9,6 @@ import Layout from "src/components/layout/Layout";
 
 export default function Home() {
   const { t } = useTranslation();
-
-  // const [landingTitle, setLandingTitle] = useState("");
-  // const [count, setCount] = useState(0);
-  // const [textNum, setTextNum] = useState(0);
 
   const textAnimationList = document.querySelectorAll(".aaa");
   const imageAnimationList = document.querySelectorAll(".profile");
@@ -28,7 +21,7 @@ export default function Home() {
         <TopBar color="#93C6D5" />
         <motion.img
           alt="title"
-          src={title}
+          src={process.env.PUBLIC_URL + "/assets/images/title.webp"}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           style={{ width: "100%", height: "100%" }}
@@ -42,7 +35,13 @@ export default function Home() {
         ></motion.img>
         <div className="profile-container">
           <div className="profile-img-wrapper">
-            <img alt="pic3" src={pic3}></img>
+            <img
+              alt="pic3"
+              src={
+                process.env.PUBLIC_URL +
+                "/assets/images/profile_image/profile_image_5.webp"
+              }
+            ></img>
           </div>
 
           <div className="profile-text-wrapper">

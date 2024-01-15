@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { STACK_NAME } from "src/types/enum";
-import github from "src/assets/icons/github.webp";
 import { useRecoilState } from "recoil";
 import { ModalState, recoilModalState } from "src/states/recoilModalState";
 
@@ -67,7 +66,10 @@ const ProjectComponent = (props: any) => {
 
         {props.data.isHaveGithub ? (
           <NavLink className="project-btn" to={props.data.githubLink}>
-            <img alt="github" src={github}></img>
+            <img
+              alt="github"
+              src={process.env.PUBLIC_URL + "/assets/icons/github.webp"}
+            ></img>
             GITHUB
           </NavLink>
         ) : null}

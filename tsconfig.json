@@ -11,9 +11,7 @@
       "@src/*": [
         "./src/*",
         "./dist/*"
-      ],
-      "@images/*": ["public/assets/images/*"],
-      "@icons/*": ["public/assets/icons/*"]
+      ]
     },
     "allowJs": true,
     "skipLibCheck": true,
