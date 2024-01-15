@@ -15,6 +15,21 @@ export default function Home() {
   // 반복문을 돌려 모든 DOM에 적용
   textAnimationList.forEach((el) => observer.observe(el));
   imageAnimationList.forEach((el) => observer.observe(el));
+
+  const titleImg = document.querySelector(".titleImg");
+  window.addEventListener("scroll", function () {
+    let yValue = window.scrollY;
+    if (titleImg) {
+      if (yValue > 0) {
+        titleImg.classList.remove("zoomIn");
+        titleImg.classList.add("zoomOut");
+      } else {
+        titleImg.classList.remove("zoomOut");
+        titleImg.classList.add("zoomIn");
+      }
+    }
+  });
+
   return (
     <Layout>
       <section className="home-page">
@@ -32,7 +47,14 @@ export default function Home() {
           }}
           width="1905px"
           height="1107.470px"
+          className="titleImg"
         ></motion.img>
+        {/*<img*/}
+        {/*  src={process.env.PUBLIC_URL + "/assets/images/title.webp"}*/}
+        {/*  width="1905px"*/}
+        {/*  height="1107.470px"*/}
+        {/*  className="titleImg"*/}
+        {/*/>*/}
         <div className="profile-container">
           <div className="profile-img-wrapper">
             <img
