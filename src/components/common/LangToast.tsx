@@ -44,9 +44,10 @@ const LangToast = (props: any) => {
     <>
       <img
         onClick={openLangToast}
-        src="assets/icons/lang.svg"
+        src={process.env.PUBLIC_URL + "/assets/icons/lang.svg"}
         width="30px"
         height="4rem"
+        alt="lang-icon"
       />
       <div
         className={
@@ -61,6 +62,7 @@ const LangToast = (props: any) => {
                   <section className="checked-lang-wrapper">
                     <img
                       src={process.env.PUBLIC_URL + "/assets/icons/check.svg"}
+                      alt="check-icon"
                     />
                     <li onClick={() => changeLangOption(el)}>{el.label}</li>
                   </section>

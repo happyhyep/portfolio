@@ -75,10 +75,10 @@
             }
         }
 
-    }        .box-container.active {
-                     transform: translate3d(0,10,30);
-                 transform: translateX(0);
-                 opacity: 1;
-             }
+    }
+    .box-container.active {
+         transform: translateX(0);
+         opacity: 1;
+     }
 
 }

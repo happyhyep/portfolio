@@ -7,17 +7,16 @@ function App() {
   let page = "";
 
   useEffect(() => {
-    console.log("11");
-
     if (window.location.href.includes("introduce")) {
       page = "IntroducePage";
     } else if (window.location.href.includes("projects")) {
       page = "ProjectsPage";
+    } else if (window.location.href.includes("awards")) {
+      page = "AwardsPage";
     }
 
     preloadImage(page);
-    console.log("22");
-  }, []);
+  }, [window.location]);
   return (
     <>
       <Router></Router>

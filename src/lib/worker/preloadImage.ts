@@ -6,6 +6,5 @@ export const preloadImage = (page: string) => {
   commonImageList.map((item, index) => {
     imgArray[index] = new Image();
     imgArray[index].src = item.url;
-    console.log(imgArray[index].src);
   });
 };

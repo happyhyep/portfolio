@@ -9,7 +9,23 @@ export default function Awards() {
   const { t } = useTranslation();
 
   // TODO redux로 관리해서 InsertsectionObserver 함수에서 상태 변화시키기
-  const [isBoxShown, setIsBoxShown] = useState(false);
+  // const [isBoxShown, setIsBoxShown] = useState(false);
+
+  const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.1,
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+      } else {
+        entry.target.classList.remove("active");
+      }
+    });
+  }, options);
 
   const awardBox = document.querySelectorAll(".box-container");
   awardBox.forEach((el) => observer.observe(el));

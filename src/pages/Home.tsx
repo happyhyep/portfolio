@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useInView } from "framer-motion";
-// import pic3 from "assets/images/profile_image/profile_image_3.webp";
 import { NavLink } from "react-router-dom";
-import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
 import Layout from "src/components/layout/Layout";
@@ -10,22 +8,23 @@ import Layout from "src/components/layout/Layout";
 export default function Home() {
   const { t } = useTranslation();
 
-  const textAnimationList = document.querySelectorAll(".aaa");
-  const imageAnimationList = document.querySelectorAll(".profile");
-  // 반복문을 돌려 모든 DOM에 적용
-  textAnimationList.forEach((el) => observer.observe(el));
-  imageAnimationList.forEach((el) => observer.observe(el));
+  // const textAnimationList = document.querySelectorAll(".aaa");
+  // const imageAnimationList = document.querySelectorAll(".profile");
+  // // 반복문을 돌려 모든 DOM에 적용
+  // textAnimationList.forEach((el) => observer.observe(el));
+  // imageAnimationList.forEach((el) => observer.observe(el));
 
   const titleImg = document.querySelector(".titleImg");
   window.addEventListener("scroll", function () {
     let yValue = window.scrollY;
+    console.log(yValue);
     if (titleImg) {
       if (yValue > 0) {
-        titleImg.classList.remove("zoomIn");
         titleImg.classList.add("zoomOut");
+        titleImg.classList.remove("zoomIn");
       } else {
-        titleImg.classList.remove("zoomOut");
         titleImg.classList.add("zoomIn");
+        titleImg.classList.remove("zoomOut");
       }
     }
   });

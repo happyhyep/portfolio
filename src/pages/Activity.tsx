@@ -1,6 +1,4 @@
 import React from "react";
-import NavBar from "src/components/layout/NavBar";
-import Footer from "src/components/layout/Footer";
 import Layout from "src/components/layout/Layout";
 
 export default function Activities() {
