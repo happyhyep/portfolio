@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { motion, useScroll, useInView } from "framer-motion";
-import { NavLink, useRoutes } from "react-router-dom";
+import React from "react";
+import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
 import Layout from "src/components/layout/Layout";
@@ -13,7 +13,7 @@ export default function Home() {
   // textAnimationList.forEach((el) => observer.observe(el));
   // imageAnimationList.forEach((el) => observer.observe(el));
 
-  const titleImg = document.querySelectorAll(".title-img");
+  const titleImg = document.querySelectorAll(".home-page");
   console.log(window.location.pathname, process.env.PUBLIC_URL + "/");
 
   // if (window.location.pathname === process.env.PUBLIC_URL + "/") {
