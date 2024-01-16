@@ -1,13 +1,19 @@
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, {
+  createRef,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import Layout from "src/components/layout/Layout";
 import AwardBox from "src/components/AwardBox";
 import { AwardData } from "src/types/type";
 import { useTranslation } from "react-i18next";
-export default function Awards() {
+export default function Awards(this: any) {
   const { t } = useTranslation();
-
+  let awardBoxEl = useRef();
   // TODO redux로 관리해서 InsertsectionObserver 함수에서 상태 변화시키기
   // const [isBoxShown, setIsBoxShown] = useState(false);
 
@@ -28,7 +34,7 @@ export default function Awards() {
   }, options);
 
   const awardBox = document.querySelectorAll(".box-container");
-  console.log(awardBox);
+  console.log(document.querySelectorAll(".box-container"));
   awardBox.forEach((el) => observer.observe(el));
 
   const awardsList: AwardData[] = [
@@ -61,7 +67,12 @@ export default function Awards() {
         {awardsList &&
           awardsList.map((el, index) => {
             return (
-              <AwardBox className="box-container" img={el.img} text={el.name} />
+              <div className="box-container">
+                <div className="box">
+                  <img alt="award-img" src={el.img}></img>
+                  <div>{el.name}</div>
+                </div>
+              </div>
             );
           })}
       </section>
