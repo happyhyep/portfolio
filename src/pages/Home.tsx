@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import TopBar from "src/components/common/TopBar";
@@ -13,25 +13,27 @@ export default function Home() {
   // textAnimationList.forEach((el) => observer.observe(el));
   // imageAnimationList.forEach((el) => observer.observe(el));
 
-  const titleImg = document.querySelectorAll(".home-page");
-  console.log(window.location.pathname, process.env.PUBLIC_URL + "/");
+  useEffect(() => {
+    const titleImg = document.querySelectorAll(".title-img");
+    console.log(window.location.pathname, process.env.PUBLIC_URL + "/");
 
-  // if (window.location.pathname === process.env.PUBLIC_URL + "/") {
-  window.addEventListener("scroll", function () {
-    let yValue = window.scrollY;
-    console.log(titleImg);
-    console.log(yValue);
-    if (titleImg) {
-      if (yValue > 0) {
-        titleImg.forEach((el) => el.classList.add("zoomOut"));
-        titleImg.forEach((el) => el.classList.remove("zoomIn"));
-      } else {
-        titleImg.forEach((el) => el.classList.add("zoomIn"));
-        titleImg.forEach((el) => el.classList.remove("zoomOut"));
+    // if (window.location.pathname === process.env.PUBLIC_URL + "/") {
+    window.addEventListener("scroll", function () {
+      let yValue = window.scrollY;
+      console.log(titleImg);
+      console.log(yValue);
+      if (titleImg) {
+        if (yValue > 0) {
+          titleImg.forEach((el) => el.classList.add("zoomOut"));
+          titleImg.forEach((el) => el.classList.remove("zoomIn"));
+        } else {
+          titleImg.forEach((el) => el.classList.add("zoomIn"));
+          titleImg.forEach((el) => el.classList.remove("zoomOut"));
+        }
       }
-    }
+    });
+    // }
   });
-  // }
 
   return (
     <Layout>
