@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="불필요한 코드 제거">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="애니메이션 안되는 현상 테스트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/icons/angry.cur" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icons/angry.cur" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/icons/angry.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icons/angry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/AppleSDGothicNeoR.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/angry.cur" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/angry.cur" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/angry.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/angry.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/LangToast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/worker/IntersectionObserver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/worker/IntersectionObserver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/worker/preloadImage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/worker/preloadImage.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Activity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/commonImageList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/commonImageList.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
@@ -128,7 +117,7 @@
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
-      <workItem from="1705368648173" duration="1858000" />
+      <workItem from="1705368648173" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="공통 코드 리팩토링, css 변수화">
       <created>1704883368802</created>
@@ -417,7 +406,28 @@
       <option name="project" value="LOCAL" />
       <updated>1705320246793</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="커서 이미지 변경">
+      <created>1705372024165</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1705372024165</updated>
+    </task>
+    <task id="LOCAL-00043" summary="애플 폰트 제거">
+      <created>1705372039223</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1705372039223</updated>
+    </task>
+    <task id="LOCAL-00044" summary="애니메이션 안되는 현상 테스트">
+      <created>1705372059678</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1705372059678</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,9 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="커서 이미지로 수정" />
-    <MESSAGE value="포인터 커서 수정" />
-    <MESSAGE value="불필요한 import 제거" />
     <MESSAGE value="민속박물관 desc 수정" />
     <MESSAGE value="project 페이지 모바일 반응형 수정" />
     <MESSAGE value="project 화살표 css 수정" />
@@ -460,7 +467,10 @@
     <MESSAGE value="home 페이지 스크롤시 애니메이션 추가" />
     <MESSAGE value="project 페이지 video" />
     <MESSAGE value="불필요한 코드 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="불필요한 코드 제거" />
+    <MESSAGE value="커서 이미지 변경" />
+    <MESSAGE value="애플 폰트 제거" />
+    <MESSAGE value="애니메이션 안되는 현상 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="애니메이션 안되는 현상 테스트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

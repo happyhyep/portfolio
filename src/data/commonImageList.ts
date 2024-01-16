@@ -52,7 +52,50 @@ export const commonImageList: preloadImgInterface[] = [
     key: "profile_image_8",
     url: "assets/images/profile_image/profile_image_8.webp",
   },
-
+  {
+    key: "profile_image_9",
+    url: "assets/images/profile_image/profile_image_9.webp",
+  },
+  {
+    key: "profile_image_10",
+    url: "assets/images/profile_image/profile_image_10.webp",
+  },
+  {
+    key: "profile_image_11",
+    url: "assets/images/profile_image/profile_image_11.webp",
+  },
+  {
+    key: "profile_image_12",
+    url: "assets/images/profile_image/profile_image_12.webp",
+  },
+  {
+    key: "profile_image_13",
+    url: "assets/images/profile_image/profile_image_13.webp",
+  },
+  {
+    key: "profile_image_14",
+    url: "assets/images/profile_image/profile_image_14.webp",
+  },
+  {
+    key: "profile_image_15",
+    url: "assets/images/profile_image/profile_image_15.webp",
+  },
+  {
+    key: "profile_image_16",
+    url: "assets/images/profile_image/profile_image_16.webp",
+  },
+  {
+    key: "profile_image_17",
+    url: "assets/images/profile_image/profile_image_17.webp",
+  },
+  {
+    key: "profile_image_18",
+    url: "assets/images/profile_image/profile_image_18.webp",
+  },
+  {
+    key: "profile_image_19",
+    url: "assets/images/profile_image/profile_image_19.webp",
+  },
   //projects
   {
     key: "apartment",

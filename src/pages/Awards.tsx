@@ -28,6 +28,7 @@ export default function Awards() {
   }, options);
 
   const awardBox = document.querySelectorAll(".box-container");
+  console.log(awardBox);
   awardBox.forEach((el) => observer.observe(el));
 
   const awardsList: AwardData[] = [
@@ -59,7 +60,9 @@ export default function Awards() {
         <TopBar color="#000000" />
         {awardsList &&
           awardsList.map((el, index) => {
-            return <AwardBox img={el.img} text={el.name} />;
+            return (
+              <AwardBox className="box-container" img={el.img} text={el.name} />
+            );
           })}
       </section>
     </Layout>

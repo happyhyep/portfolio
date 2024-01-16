@@ -14,9 +14,10 @@ export default function Home() {
   // textAnimationList.forEach((el) => observer.observe(el));
   // imageAnimationList.forEach((el) => observer.observe(el));
 
-  const titleImg = document.querySelector(".titleImg");
+  const titleImg = document.querySelector(".title-img");
   window.addEventListener("scroll", function () {
     let yValue = window.scrollY;
+    console.log(titleImg);
     console.log(yValue);
     if (titleImg) {
       if (yValue > 0) {
@@ -46,7 +47,7 @@ export default function Home() {
           }}
           width="1905px"
           height="1107.470px"
-          className="titleImg"
+          className="title-img"
         ></motion.img>
         {/*<img*/}
         {/*  src={process.env.PUBLIC_URL + "/assets/images/title.webp"}*/}
