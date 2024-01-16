@@ -7,30 +7,21 @@ import Layout from "src/components/layout/Layout";
 
 export default function Home() {
   const { t } = useTranslation();
-  // const textAnimationList = document.querySelectorAll(".aaa");
-  // const imageAnimationList = document.querySelectorAll(".profile");
-  // // 반복문을 돌려 모든 DOM에 적용
-  // textAnimationList.forEach((el) => observer.observe(el));
-  // imageAnimationList.forEach((el) => observer.observe(el));
 
   useEffect(() => {
     const titleImg = document.querySelectorAll(".title-img");
-    if (window.location.pathname === process.env.PUBLIC_URL + "/") {
-      window.addEventListener("scroll", function () {
-        let yValue = window.scrollY;
-        console.log(titleImg);
-        console.log(yValue);
-        if (titleImg) {
-          if (yValue > 0) {
-            titleImg.forEach((el) => el.classList.add("zoomOut"));
-            titleImg.forEach((el) => el.classList.remove("zoomIn"));
-          } else {
-            titleImg.forEach((el) => el.classList.add("zoomIn"));
-            titleImg.forEach((el) => el.classList.remove("zoomOut"));
-          }
+    window.addEventListener("scroll", function () {
+      let yValue = window.scrollY;
+      if (titleImg) {
+        if (yValue > 0) {
+          titleImg.forEach((el) => el.classList.remove("zoomIn"));
+          titleImg.forEach((el) => el.classList.add("zoomOut"));
+        } else {
+          titleImg.forEach((el) => el.classList.remove("zoomOut"));
+          titleImg.forEach((el) => el.classList.add("zoomIn"));
         }
-      });
-    }
+      }
+    });
   });
 
   return (
@@ -50,7 +41,7 @@ export default function Home() {
           }}
           width="1905px"
           height="1107.470px"
-          className="title-img zoomOut zoomIn"
+          className="title-img"
         ></motion.img>
         {/*<img*/}
         {/*  src={process.env.PUBLIC_URL + "/assets/images/title.webp"}*/}

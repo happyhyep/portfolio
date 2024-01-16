@@ -1,10 +1,4 @@
-import React, {
-  createRef,
-  useEffect,
-  useLayoutEffect,
-  useRef,
-  useState,
-} from "react";
+import React, { useEffect } from "react";
 import { observer } from "src/lib/worker/IntersectionObserver";
 import TopBar from "src/components/common/TopBar";
 import Layout from "src/components/layout/Layout";
@@ -13,25 +7,6 @@ import { AwardData } from "src/types/type";
 import { useTranslation } from "react-i18next";
 export default function Awards(this: any) {
   const { t } = useTranslation();
-  // TODO redux로 관리해서 InsertsectionObserver 함수에서 상태 변화시키기
-  // const [isBoxShown, setIsBoxShown] = useState(false);
-  let awardBoxEl = React.createRef();
-
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.1,
-  };
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      } else {
-        entry.target.classList.remove("active");
-      }
-    });
-  }, options);
 
   const awardsList: AwardData[] = [
     {
@@ -59,7 +34,6 @@ export default function Awards(this: any) {
     let awardBox;
     for (let i = 0; i < awardsList.length; i++) {
       awardBox = document.querySelectorAll(`.box-index-${i}`);
-      // awardBox.push(document.querySelector(`.box-index-${i}`));
       console.log(awardBox);
       console.log(document.querySelectorAll(`.box-index-${i}`));
 
@@ -76,12 +50,17 @@ export default function Awards(this: any) {
         {awardsList &&
           awardsList.map((el, index) => {
             return (
-              <div className={`box-container box-index-${index}`}>
-                <div className="box">
-                  <img alt="award-img" src={el.img}></img>
-                  <div>{el.name}</div>
-                </div>
-              </div>
+              // <div className={`box-container box-index-${index}`}>
+              //   <div className="box">
+              //     <img alt="award-img" src={el.img}></img>
+              //     <div>{el.name}</div>
+              //   </div>
+              // </div>
+              <AwardBox
+                className={`box-index-${index}`}
+                img={el.img}
+                text={el.name}
+              />
             );
           })}
       </section>

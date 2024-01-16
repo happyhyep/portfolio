@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="애니메이션 안되는 현상 테스트">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AwardBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AwardBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,14 +117,7 @@
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
-      <workItem from="1705368648173" duration="11916000" />
-    </task>
-    <task id="LOCAL-00004" summary="introduce 페이지 리팩토링, 공통 컴포넌트 추가, 타입/함수 공통화">
-      <created>1704950585551</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1704950585551</updated>
+      <workItem from="1705368648173" duration="12468000" />
     </task>
     <task id="LOCAL-00005" summary="topbar 폴더 수정">
       <created>1704950770547</created>
@@ -459,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705381944256</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="애니메이션 안되는 현상 테스트">
+      <created>1705382097874</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1705382097874</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
