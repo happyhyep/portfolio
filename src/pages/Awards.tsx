@@ -55,17 +55,19 @@ export default function Awards(this: any) {
       img: process.env.PUBLIC_URL + "/assets/images/awards/award_edu.webp",
     },
   ];
-  let awardBox;
-  for (let i = 0; i < awardsList.length; i++) {
-    awardBox = document.querySelectorAll(`.box-index-${i}`);
-    // awardBox.push(document.querySelector(`.box-index-${i}`));
-    console.log(awardBox);
-    console.log(document.querySelectorAll(`.box-index-${i}`));
+  useEffect(() => {
+    let awardBox;
+    for (let i = 0; i < awardsList.length; i++) {
+      awardBox = document.querySelectorAll(`.box-index-${i}`);
+      // awardBox.push(document.querySelector(`.box-index-${i}`));
+      console.log(awardBox);
+      console.log(document.querySelectorAll(`.box-index-${i}`));
 
-    awardBox.forEach((el) => {
-      observer.observe(el);
-    });
-  }
+      awardBox.forEach((el) => {
+        observer.observe(el);
+      });
+    }
+  });
 
   return (
     <Layout>
