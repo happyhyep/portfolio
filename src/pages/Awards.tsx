@@ -50,12 +50,6 @@ export default function Awards(this: any) {
         {awardsList &&
           awardsList.map((el, index) => {
             return (
-              // <div className={`box-container box-index-${index}`}>
-              //   <div className="box">
-              //     <img alt="award-img" src={el.img}></img>
-              //     <div>{el.name}</div>
-              //   </div>
-              // </div>
               <AwardBox
                 className={`box-index-${index}`}
                 img={el.img}

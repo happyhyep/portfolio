@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="애니메이션 안되는 현상 테스트">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="award scss 리팩토링">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +115,7 @@
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
-      <workItem from="1705368648173" duration="12596000" />
-    </task>
-    <task id="LOCAL-00006" summary="navbar 모바일 버수정, lang change 기능 적용">
-      <created>1704963339057</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1704963339057</updated>
+      <workItem from="1705368648173" duration="14251000" />
     </task>
     <task id="LOCAL-00007" summary="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료">
       <created>1704969707329</created>
@@ -460,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705382651618</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="award scss 리팩토링">
+      <created>1705382813690</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1705382813690</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="민속박물관 desc 수정" />
     <MESSAGE value="project 페이지 모바일 반응형 수정" />
     <MESSAGE value="project 화살표 css 수정" />
     <MESSAGE value="이미지 제거" />
@@ -503,7 +502,8 @@
     <MESSAGE value="커서 이미지 변경" />
     <MESSAGE value="애플 폰트 제거" />
     <MESSAGE value="애니메이션 안되는 현상 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="애니메이션 안되는 현상 테스트" />
+    <MESSAGE value="award scss 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="award scss 리팩토링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
