@@ -61,7 +61,7 @@ export default function Awards(this: any) {
     // awardBox.push(document.querySelector(`.box-index-${i}`));
     console.log(awardBox);
     console.log(document.querySelectorAll(`.box-index-${i}`));
-    // @ts-ignore
+
     awardBox.forEach((el) => {
       observer.observe(el);
     });

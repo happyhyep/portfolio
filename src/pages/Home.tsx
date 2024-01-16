@@ -13,7 +13,7 @@ export default function Home() {
   // textAnimationList.forEach((el) => observer.observe(el));
   // imageAnimationList.forEach((el) => observer.observe(el));
 
-  const titleImg = document.querySelector(".title-img");
+  const titleImg = document.querySelectorAll(".title-img");
   console.log(window.location.pathname, process.env.PUBLIC_URL + "/");
 
   // if (window.location.pathname === process.env.PUBLIC_URL + "/") {
@@ -23,11 +23,11 @@ export default function Home() {
     console.log(yValue);
     if (titleImg) {
       if (yValue > 0) {
-        titleImg.classList.add("zoomOut");
-        titleImg.classList.remove("zoomIn");
+        titleImg.forEach((el) => el.classList.add("zoomOut"));
+        titleImg.forEach((el) => el.classList.remove("zoomIn"));
       } else {
-        titleImg.classList.add("zoomIn");
-        titleImg.classList.remove("zoomOut");
+        titleImg.forEach((el) => el.classList.add("zoomIn"));
+        titleImg.forEach((el) => el.classList.remove("zoomOut"));
       }
     }
   });
