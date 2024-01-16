@@ -57,17 +57,16 @@ export default function Awards(this: any) {
   ];
   let awardBox;
   for (let i = 0; i < awardsList.length; i++) {
-    awardBox = document.querySelectorAll(`.box-container`);
+    awardBox = document.querySelectorAll(`.box-index-${i}`);
     // awardBox.push(document.querySelector(`.box-index-${i}`));
     console.log(awardBox);
-    console.log(document.querySelectorAll(`.box-container`));
+    console.log(document.querySelectorAll(`.box-index-${i}`));
+    // @ts-ignore
+    awardBox.forEach((el) => {
+      observer.observe(el);
+    });
   }
-  console.log(awardBox);
 
-  // @ts-ignore
-  awardBox.forEach((el) => {
-    observer.observe(el);
-  });
   return (
     <Layout>
       <section className="awards-page">

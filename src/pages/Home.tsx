@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useInView } from "framer-motion";
-import { NavLink } from "react-router-dom";
+import { NavLink, useRoutes } from "react-router-dom";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
 import Layout from "src/components/layout/Layout";
 
 export default function Home() {
   const { t } = useTranslation();
-
   // const textAnimationList = document.querySelectorAll(".aaa");
   // const imageAnimationList = document.querySelectorAll(".profile");
   // // 반복문을 돌려 모든 DOM에 적용
@@ -15,6 +14,9 @@ export default function Home() {
   // imageAnimationList.forEach((el) => observer.observe(el));
 
   const titleImg = document.querySelector(".title-img");
+  console.log(window.location.pathname, process.env.PUBLIC_URL + "/");
+
+  // if (window.location.pathname === process.env.PUBLIC_URL + "/") {
   window.addEventListener("scroll", function () {
     let yValue = window.scrollY;
     console.log(titleImg);
@@ -29,6 +31,7 @@ export default function Home() {
       }
     }
   });
+  // }
 
   return (
     <Layout>
@@ -47,7 +50,7 @@ export default function Home() {
           }}
           width="1905px"
           height="1107.470px"
-          className="title-img"
+          className="title-img zoomOut zoomIn"
         ></motion.img>
         {/*<img*/}
         {/*  src={process.env.PUBLIC_URL + "/assets/images/title.webp"}*/}
