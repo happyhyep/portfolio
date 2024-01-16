@@ -15,24 +15,22 @@ export default function Home() {
 
   useEffect(() => {
     const titleImg = document.querySelectorAll(".title-img");
-    console.log(window.location.pathname, process.env.PUBLIC_URL + "/");
-
-    // if (window.location.pathname === process.env.PUBLIC_URL + "/") {
-    window.addEventListener("scroll", function () {
-      let yValue = window.scrollY;
-      console.log(titleImg);
-      console.log(yValue);
-      if (titleImg) {
-        if (yValue > 0) {
-          titleImg.forEach((el) => el.classList.add("zoomOut"));
-          titleImg.forEach((el) => el.classList.remove("zoomIn"));
-        } else {
-          titleImg.forEach((el) => el.classList.add("zoomIn"));
-          titleImg.forEach((el) => el.classList.remove("zoomOut"));
+    if (window.location.pathname === process.env.PUBLIC_URL + "/") {
+      window.addEventListener("scroll", function () {
+        let yValue = window.scrollY;
+        console.log(titleImg);
+        console.log(yValue);
+        if (titleImg) {
+          if (yValue > 0) {
+            titleImg.forEach((el) => el.classList.add("zoomOut"));
+            titleImg.forEach((el) => el.classList.remove("zoomIn"));
+          } else {
+            titleImg.forEach((el) => el.classList.add("zoomIn"));
+            titleImg.forEach((el) => el.classList.remove("zoomOut"));
+          }
         }
-      }
-    });
-    // }
+      });
+    }
   });
 
   return (
