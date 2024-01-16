@@ -13,9 +13,9 @@ import { AwardData } from "src/types/type";
 import { useTranslation } from "react-i18next";
 export default function Awards(this: any) {
   const { t } = useTranslation();
-  let awardBoxEl = useRef();
   // TODO redux로 관리해서 InsertsectionObserver 함수에서 상태 변화시키기
   // const [isBoxShown, setIsBoxShown] = useState(false);
+  let awardBoxEl = React.createRef();
 
   const options = {
     root: null,
@@ -32,10 +32,6 @@ export default function Awards(this: any) {
       }
     });
   }, options);
-
-  const awardBox = document.querySelectorAll(".box-container");
-  console.log(document.querySelectorAll(".box-container"));
-  awardBox.forEach((el) => observer.observe(el));
 
   const awardsList: AwardData[] = [
     {
@@ -59,7 +55,19 @@ export default function Awards(this: any) {
       img: process.env.PUBLIC_URL + "/assets/images/awards/award_edu.webp",
     },
   ];
+  let awardBox;
+  for (let i = 0; i < awardsList.length; i++) {
+    awardBox = document.querySelectorAll(`.box-container`);
+    // awardBox.push(document.querySelector(`.box-index-${i}`));
+    console.log(awardBox);
+    console.log(document.querySelectorAll(`.box-container`));
+  }
+  console.log(awardBox);
 
+  // @ts-ignore
+  awardBox.forEach((el) => {
+    observer.observe(el);
+  });
   return (
     <Layout>
       <section className="awards-page">
@@ -67,7 +75,7 @@ export default function Awards(this: any) {
         {awardsList &&
           awardsList.map((el, index) => {
             return (
-              <div className="box-container">
+              <div className={`box-container box-index-${index}`}>
                 <div className="box">
                   <img alt="award-img" src={el.img}></img>
                   <div>{el.name}</div>

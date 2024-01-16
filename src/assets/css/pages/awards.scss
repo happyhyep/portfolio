@@ -76,9 +76,20 @@
         }
 
     }
-    .box-container.active {
+    .box-index-0.active {
          transform: translateX(0);
          opacity: 1;
      }
-
+    .box-index-1.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .box-index-2.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .box-index-3.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
