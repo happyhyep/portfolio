@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="애니메이션 안되는 현상 테스트">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AwardBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AwardBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,14 +115,7 @@
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
-      <workItem from="1705368648173" duration="12468000" />
-    </task>
-    <task id="LOCAL-00005" summary="topbar 폴더 수정">
-      <created>1704950770547</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1704950770547</updated>
+      <workItem from="1705368648173" duration="12596000" />
     </task>
     <task id="LOCAL-00006" summary="navbar 모바일 버수정, lang change 기능 적용">
       <created>1704963339057</created>
@@ -462,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705382097874</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="애니메이션 안되는 현상 테스트">
+      <created>1705382651618</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1705382651618</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
