@@ -33,7 +33,13 @@ export interface ProjectDataInterface {
   videoLink: string | null;
 }
 
-export interface preloadImgInterface {
+export interface PreloadImgInterface {
   key: string;
   url: string;
+}
+
+export interface ActivityDataInterface {
+  key: string;
+  value: string;
+  date: string;
 }
