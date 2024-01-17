@@ -8,6 +8,7 @@ import TopBar from "src/components/common/TopBar";
 import DashTitle from "src/components/common/DashTitle";
 import ProjectComponent from "src/components/ProjectComponent";
 import getProjectPropsData from "src/lib/worker/getProjectPropsData";
+import { NavLink } from "react-router-dom";
 
 export default function Projects() {
   function SamplePrevArrow(props: any) {
@@ -67,6 +68,14 @@ export default function Projects() {
               return <ProjectComponent data={el} />;
             })}
         </Slider>
+        <div className="btn-container">
+          <NavLink
+            className="change-page-btn"
+            to={`${process.env.PUBLIC_URL}/activities`}
+          >
+            Activities Page →
+          </NavLink>
+        </div>
       </section>
     </Layout>
   );

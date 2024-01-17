@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div className="btn-container">
           <NavLink
-            className="to-introduce-btn"
+            className="change-page-btn"
             to={`${process.env.PUBLIC_URL}/introduce`}
           >
             Introduce Menu →

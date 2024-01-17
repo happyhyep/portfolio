@@ -4,22 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="이미지 그림자 추가">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="불필요한 코드 제거">
+      <change afterPath="$PROJECT_DIR$/src/lib/worker/getActivityData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/font.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/activities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/LangToast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/commonImageList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/commonImageList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Activity.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,29 +72,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jeonghyein/Desktop/hyen/github/portfolio/public/assets/images/projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/jeonghyein/Desktop/hyen/github/portfolio/node_modules/prettier&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/jeonghyein/Desktop/hyen/github/portfolio/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/jeonghyein/Desktop/hyen/github/portfolio/public/assets/images/projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/jeonghyein/Desktop/hyen/github/portfolio/node_modules/prettier",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/Users/jeonghyein/Desktop/hyen/github/portfolio/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/assets/images/projects" />
@@ -129,14 +131,7 @@
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
       <workItem from="1705368648173" duration="16286000" />
-      <workItem from="1705458494519" duration="2875000" />
-    </task>
-    <task id="LOCAL-00009" summary="recoil 세팅">
-      <created>1705050368707</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1705050368707</updated>
+      <workItem from="1705458494519" duration="12437000" />
     </task>
     <task id="LOCAL-00010" summary="navbar와 footer layout으로 통합">
       <created>1705050477445</created>
@@ -474,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705461216552</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="불필요한 코드 제거">
+      <created>1705462720281</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1705462720281</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,14 +512,14 @@
     <MESSAGE value="gallery 페이지 이미지 추가" />
     <MESSAGE value="home 페이지 스크롤시 애니메이션 추가" />
     <MESSAGE value="project 페이지 video" />
-    <MESSAGE value="불필요한 코드 제거" />
     <MESSAGE value="커서 이미지 변경" />
     <MESSAGE value="애플 폰트 제거" />
     <MESSAGE value="애니메이션 안되는 현상 테스트" />
     <MESSAGE value="award scss 리팩토링" />
     <MESSAGE value="award 리팩토링" />
     <MESSAGE value="이미지 그림자 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 그림자 추가" />
+    <MESSAGE value="불필요한 코드 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="불필요한 코드 제거" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

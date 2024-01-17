@@ -75,6 +75,9 @@
   .slick-dots li button {
     cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
   }
+  .btn-container {
+    width: unset;
+  }
 }
 
 .video-modal {
@@ -102,4 +105,5 @@
     width: 100rem;
     border-radius: 2rem;
   }
+
 }

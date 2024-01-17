@@ -200,6 +200,15 @@ export default function Introduce() {
         </div>
         <DashTitle name="Skills"></DashTitle>
         <SkillsContainer />
+
+        <div className="btn-container">
+          <NavLink
+            className="change-page-btn"
+            to={`${process.env.PUBLIC_URL}/awards`}
+          >
+            Awards Page →
+          </NavLink>
+        </div>
       </section>
     </Layout>
   );
