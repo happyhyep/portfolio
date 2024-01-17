@@ -1,6 +1,6 @@
-import { preloadImgInterface } from "src/types/type";
+import { PreloadImgInterface } from "src/types/type";
 
-export const commonImageList: preloadImgInterface[] = [
+export const commonImageList: PreloadImgInterface[] = [
   { key: "angry_cur", url: "assets/icons/angry.cur" },
   { key: "angry_cur_png", url: "assets/icons/angry.png" },
   { key: "arrow", url: "assets/icons/arrow.svg" },
