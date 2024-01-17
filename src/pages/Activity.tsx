@@ -1,7 +1,11 @@
 import React from "react";
 import Layout from "src/components/layout/Layout";
+import { NavLink } from "react-router-dom";
+import DashTitle from "src/components/common/DashTitle";
+import getActivityData from "src/lib/worker/getActivityData";
 
 export default function Activities() {
+  const activityData = getActivityData();
   return (
     <Layout>
       <section className="activities-page">
@@ -17,47 +21,43 @@ export default function Activities() {
           <li></li>
           <li></li>
           <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </div>
-        {/*  <div*/}
-        {/*    style={{*/}
-        {/*      display: "flex",*/}
-        {/*      justifyContent: "center",*/}
-        {/*      marginTop: "70px",*/}
-        {/*      marginBottom: "80px",*/}
-        {/*    }}*/}
-        {/*  >*/}
-        {/*    페이지 준비중입니다 ...*/}
-        {/*  </div>*/}
-        {/*  <div*/}
-        {/*    style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}*/}
-        {/*  >*/}
-        {/*    2023 경희대학교 컴퓨터공학부 학생회장*/}
-        {/*  </div>*/}
-        {/*  <div*/}
-        {/*    style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}*/}
-        {/*  >*/}
-        {/*    2023 San Jose Univ. 전공연수*/}
-        {/*  </div>*/}
-        {/*  <div*/}
-        {/*    style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}*/}
-        {/*  >*/}
-        {/*    2023 CES 참여*/}
-        {/*  </div>*/}
-        {/*  <div*/}
-        {/*    style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}*/}
-        {/*  >*/}
-        {/*    2022 경희대학교 컴퓨터공학부 부학생회장*/}
-        {/*  </div>*/}
-        {/*  <div*/}
-        {/*    style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}*/}
-        {/*  >*/}
-        {/*    2021 경희대학교 소프트웨어융합대학 학생회 홍보부*/}
-        {/*  </div>*/}
-        {/*  <div*/}
-        {/*    style={{ display: "flex", justifyContent: "center", marginTop: "20px" }}*/}
-        {/*  >*/}
-        {/*    2019 포항장성고등학교 전교회장*/}
-        {/*  </div>*/}
+
+        <DashTitle name="What I've Done" />
+        <div className="sub-title">
+          - Summary Of Education, Activities, Work Experience -
+        </div>
+
+        {activityData.map((el) => {
+          return (
+            <>
+              <div className="activity-container">
+                <div className="activity-dot-wrapper">
+                  <div className="activity-line"></div>
+                  <div className="activity-circle"></div>
+                </div>
+                <div className="text-wrapper">
+                  <div className="title-text">{el.value}</div>
+                  <div className="sub-text">{el.date}</div>
+                </div>
+              </div>
+            </>
+          );
+        })}
+
+        <div className="btn-container">
+          <NavLink
+            className="change-page-btn"
+            to={`${process.env.PUBLIC_URL}/gallery`}
+          >
+            Gallery Page →
+          </NavLink>
+        </div>
       </section>
     </Layout>
   );
