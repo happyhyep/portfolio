@@ -52,5 +52,141 @@
       "univ": "Kyunghee Univ. Computer Science & Engineering",
       "apple-academy": "Apple Developer Academy"
     }
+  },
+  "awards": {
+    "money": "성적우수 장학, 밝은사회 장학, SW중심대학 장학 ... 외 다수 장학 수혜",
+    "sanjose": "2023 San Jose State University Enterpreneurship Award Grand Prize",
+    "khu": "2022 KyungHee Univ. College Of Software Club Competition Grand Prize",
+    "edu": "2021 Educational Donation Contest For College Students Encouragement Prize"
+  },
+  "projects": {
+    "esim": {
+      "title": "World-ESIM",
+      "subtitle": "- ESIM Sales Site",
+      "user": "(actually provide services in Japan, South Korea, and the United States)",
+      "desc-1": "We developed and distributed websites that sell physical products to API products",
+      "desc-2": "to Japanese airports, Japanese store kiosks, and various apps.",
+      "desc-3": "It was conducted by 3 front-end developers, 3 back-end developers, and a design team/planning team.",
+      "desc-4": "Among them, I'm a temporary PL (project leader) and front-end developer",
+      "desc-5": "I did component diagram, usecase diagram, initial component setting(countBox, button, dropDown, all of modal...), register/login page, my page, product detail page, payment page, support multilingual, api connection, initial settings such as localStorage and headers, RWD (Responsive Web Design), Separate and integrate frequently used functions/components such as getQueryString and modalManager, regular expression, code refactoring, etc."
+    },
+    "esim-admin": {
+      "title": "World-ESIM admin service",
+      "subtitle": "- ESIM Sales Manager Site",
+      "user": "(actually provide services in Japan, South Korea, and the United States)",
+      "desc-1": "As a site dedicated to managers selling ESIM, we have developed and distributed a website",
+      "desc-2": "that allows you to register, modify, sell, and settle all products from physical products to API products.",
+      "desc-3": "It was conducted by 3 front-end developers, 3 back-end developers, and a design team/planning team.",
+      "desc-4": "Among them, I'm a temporary PL (project leader) and front-end developer",
+      "desc-5": "I did component diagram, usecase diagram, initial component setting(table, imageUploader, excelUploader, sideMenu...), login page, modifying Members (Administrators) page, product registration page, api connection, initial settings such as localStorage and headers, Separate and integrate frequently used functions/components such as getQueryString and modalManager, regular expression, code refactoring, etc."
+    },
+    "nfm-trd": {
+      "title": "Museum of memory - come to my memory",
+      "subtitle": "- Memory History Mobile Web Content",
+      "user": "(20,000 actual users, 2023 Chuseok Ga Open/2024 Lunar New Year~ Official operation)",
+      "desc-1": "It is a web content conducted in the third hall of the National Folk Museum of Korea, ",
+      "desc-2": "and a website was developed and distributed to record memories targeting middle-aged people.",
+      "desc-3": "It was conducted with 3 developers, 2 designers, 1 planner, and 1 development mentor.",
+      "desc-4": "Among them, I am PL (project leader) and I am in charge of front end, back end, and DB",
+      "desc-5": "I did initial front-end development settings, redirect setting, regular expression, front end of nickname/age input page, front end of relics selection page, front-end of record page, front/back-end of result page, front/back-end of share page, background/click functionality and applications, 'Press to unmute' function (apply as needed on each page), a personal URL sharing function with uuid., differentiation after classifying owners/visitors, etc."
+    },
+    "focuz": {
+      "title": "FOCUZ",
+      "subtitle": "- Facial Recognition Cam Study Website",
+      "user": "(KyungHee Univ. College Of Software Club Competition Grand Prize)",
+      "desc-1": "It differentiates it from existing video conference programs and study programs",
+      "desc-2": "to analyze study concentration by measuring face recognition time.",
+      "desc-3": "It was conducted with two front-end members, two back-end members, and two mentors.",
+      "desc-4": "Among them, I am front-end developer",
+      "desc-5": "I did page routing, register/login(kakao auth), study page(utilize the sensorflow library), add friend/group page,friend/group list page(develop page, component), create study group page, analysis page (calinder date setting, time graphing), etc."
+    },
+    "bburing": {
+      "title":"BBuRing_log",
+      "subtitle": "- National Chicken restaurant record website",
+      "user":"",
+      "desc-1":"You can record reviews for each store",
+      "desc-2":"to explore chicken restaurants nationwide.",
+      "desc-3":"It was conducted with one front end developer and one back end developer.",
+      "desc-4":"Among them, I am front-end developer",
+      "desc-5":"I did page routing, main page, site guide page(animation), kakao map api-assign marker, search chicken store, search posts(view reviews by store when you click on a map, preview mouse hovershoots), write page, etc."
+    },
+    "eclipse": {
+      "title":"Eclipse",
+      "subtitle":"- A Website For Solving College Students' Career Concerns",
+      "user":"",
+      "desc-1":"It was planned for college students who are worried about their career",
+      "desc-2":"due to the disconnection of their senior/junior relationship after COVID-19.",
+      "desc-3":"It was conducted with two front-end developers and two back-end developers.",
+      "desc-4":"Among them, I am front-end developer",
+      "desc-5":"I did design, initial front-end development settings, page routing, main page, login page, faculty-student communication page, timetable recommendation page, profile page, sponsoring page, check the alarm page, etc."
+    },
+    "gallery": {
+      "title":"gallery web",
+      "subtitle":"- a website where you can record your photos",
+      "user":"",
+      "desc-1":"For those who like to take pictures,",
+      "desc-2":"I have planned a website that can be recorded on the website.",
+      "desc-3":"I proceeded with the toy project by myself.",
+      "desc-4":"I did design, initial front-end development settings, page routing, main page, register/login page, modify personal information page, uploading text/photos feature, the functions of checking, modifying, and deleting posts",
+      "desc-5":""
+    },
+    "apartment": {
+      "title":"Search For Apartment Transactions",
+      "subtitle":"- A website where you can check the actual transaction price of an apartment",
+      "user":"",
+      "desc-1":"You can select the area you want to see the actual sale price of the apartment,",
+      "desc-2":"and go to the property site.",
+      "desc-3":"We proceeded with one front end developer and one api crawler.",
+      "desc-4":"Among them, I am front-end developer",
+      "desc-5":"I did design, initial front-end development settings, api connection, search feature, etc."
+    },
+    "d": {
+      "title":"",
+      "subtitle":"",
+      "user":"",
+      "desc-1":"",
+      "desc-2":"",
+      "desc-3":"",
+      "desc-4":"",
+      "desc-5":""
+    }
+  },
+  "activites": {
+    "apple-developer" : {
+      "title": "Apple Developer Academy @POSTECH 3th Member",
+      "date": "(2024.03 ~)"
+    },
+    "famppy" : {
+      "title": "Intern at FAMPPY Co., Ltd",
+      "date": "(2023.09 ~ 2023.12)"
+    },
+    "shake" : {
+      "title": "Member of Committee for the Gyeonggi-do Regional Union Programming Competition, 'Shake!'",
+      "date": "(2023.03 ~ 2023.12)"
+    },
+    "shake-khu" : {
+      "title": "Kyung Hee University, shake! Preliminary round, Baek Joon's management leader",
+      "date": "(2023.09)"
+    },
+    "scaico" : {
+      "title": "Management team of SCAICO (Seoul Central AI Competition)",
+      "date": "(2023.03 ~ 2023.11)"
+    },
+    "2023-council" : {
+      "title": "2023 Student Student President of KyungHee Univ. department of C.S.E",
+      "date": "(2023.01 ~ 2023.12)"
+    },
+    "san-jose" : {
+      "title": "Participation in major training at San Jose Univ. and Participation in 2023 CES",
+      "date": "(2023.01)"
+    },
+    "2022-council" : {
+      "title": "2022 Student Vice Student President of KyungHee Univ. department of C.S.E",
+      "date": "(2022.03 ~ 2022.12)"
+    },
+    "2021-council" : {
+      "title": "2021 Kyung Hee Univ. College Of Software Student Council Public Relations Member",
+      "date": "(2021.03 ~ 2021.12)"
+    }
   }
 }
