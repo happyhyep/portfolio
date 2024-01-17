@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="award scss 리팩토링">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="award 리팩토링">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +117,8 @@
       <workItem from="1705138164900" duration="765000" />
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
-      <workItem from="1705368648173" duration="14251000" />
-    </task>
-    <task id="LOCAL-00007" summary="모바일, 데스크탑 버전 모두 언어 변경 기능 추가, 모바일 메뉴 기본 세팅 완료">
-      <created>1704969707329</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1704969707329</updated>
+      <workItem from="1705368648173" duration="16286000" />
+      <workItem from="1705458494519" duration="1616000" />
     </task>
     <task id="LOCAL-00008" summary="한국어, 영어 적용 완료">
       <created>1704974033999</created>
@@ -460,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705382813690</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="award 리팩토링">
+      <created>1705389727659</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1705389727659</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="project 페이지 모바일 반응형 수정" />
     <MESSAGE value="project 화살표 css 수정" />
     <MESSAGE value="이미지 제거" />
     <MESSAGE value="topbar zindex 수정" />
@@ -503,7 +505,8 @@
     <MESSAGE value="애플 폰트 제거" />
     <MESSAGE value="애니메이션 안되는 현상 테스트" />
     <MESSAGE value="award scss 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="award scss 리팩토링" />
+    <MESSAGE value="award 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="award 리팩토링" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
