@@ -32,11 +32,13 @@ html {
   }
   .title-font {
     margin: 0 8rem;
-    font-family: iceJaram-Rg;
+    font-family: Redemption;
+    color: #000;
+    opacity: 0.8;
     font-size: 10rem;
-    line-height: 8.875rem;
+    line-height: normal;
     text-align: center;
-    letter-spacing: 0.15em;
+    letter-spacing: 1.26875rem;
   }
 }
 
@@ -62,6 +64,30 @@ html {
   }
 }
 
+.btn-container {
+  width: 100%;
+  margin-top: 12.5rem;
+  display: flex;
+  justify-content: end;
+  margin-right: 12.5rem;
+
+  .change-page-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+    border-width: 0.0625rem;
+    width: 25rem;
+    height: 5rem;
+    background-color: $colorGray100;
+    color: $colorWhite;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
+  }
+}
 .dim {
   background-color: $colorBlack;
   opacity: 0.2;
