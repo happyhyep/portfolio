@@ -21,7 +21,6 @@ const LangToast = (props: any) => {
       ? toastElement?.classList.remove("lang-toast")
       : toastElement?.classList.add("lang-toast");
     setIsOpenedLangToast(!isOpenedLangToast);
-    console.log(isOpenedLangToast);
   };
 
   const changeLangOption = (clickedLang: SelectOptionInterface) => {
@@ -37,7 +36,6 @@ const LangToast = (props: any) => {
     isOpenedLangToast
       ? toastElement?.classList.add("lang-toast")
       : toastElement?.classList.remove("lang-toast");
-    // console.log(isOpenedLangToast);
   }, [isOpenedLangToast]);
 
   return (

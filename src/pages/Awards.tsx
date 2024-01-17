@@ -34,8 +34,6 @@ export default function Awards(this: any) {
     let awardBox;
     for (let i = 0; i < awardsList.length; i++) {
       awardBox = document.querySelectorAll(`.box-index-${i}`);
-      console.log(awardBox);
-      console.log(document.querySelectorAll(`.box-index-${i}`));
 
       awardBox.forEach((el) => {
         observer.observe(el);
@@ -61,22 +59,3 @@ export default function Awards(this: any) {
     </Layout>
   );
 }
-
-// const Box = styled.div`
-//   width: 70%;
-//   margin-top: 3%;
-//
-//   background: white;
-//   border-radius: 2rem;
-//   box-shadow: 3px 3px 20px 6px gray;
-//
-//   font-family: Noto Sans KR;
-//   color: #53354a;
-// `;
-//
-// const AwardImg = styled.img`
-//   width: 50%;
-//   margin-top: 5%;
-//   margin-left: 25%;
-//   margin-bottom: 3%;
-// `;

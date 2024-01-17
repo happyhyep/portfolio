@@ -43,12 +43,7 @@ export default function Home() {
           height="1107.470px"
           className="title-img"
         ></motion.img>
-        {/*<img*/}
-        {/*  src={process.env.PUBLIC_URL + "/assets/images/title.webp"}*/}
-        {/*  width="1905px"*/}
-        {/*  height="1107.470px"*/}
-        {/*  className="titleImg"*/}
-        {/*/>*/}
+
         <div className="profile-container">
           <div className="profile-img-wrapper">
             <img
@@ -99,38 +94,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-// const Happyhyep = styled.div`
-//     font-family: redemption;
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 90px;
-//     line-height: 71px;
-//     text-align: center;
-//     letter-spacing: 0.175em;
-// `
-// const Contact = styled.div`
-//     font-family: applesdgothic;
-//     font-size: 20px;
-//     color: #53354A;
-//     margin-top: 5px;
-// `
-
-// const Typing = styled.div`
-//     color: #ffd700;
-//     display: inline;
-//     vertical-align: middle;
-//     border-right: .05em solid black;
-//     animation:  cursor 0.2s ease infinite;
-// `
-
-// const Button = styled(NavLink)`
-//     border-radius: 5px;
-//     border-width: 0.5px;
-//     width: 200px;
-//     height: 30px;
-//     background-color: #333;
-//     color: #fff;
-//     text-align: center;
-//     text-decoration: none;
-// `

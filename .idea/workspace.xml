@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="award 리팩토링">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="이미지 그림자 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/font.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/activities.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/awards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/LangToast.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/LangToast.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Gallery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gallery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +129,7 @@
       <workItem from="1705225034256" duration="353000" />
       <workItem from="1705279111187" duration="33031000" />
       <workItem from="1705368648173" duration="16286000" />
-      <workItem from="1705458494519" duration="1616000" />
-    </task>
-    <task id="LOCAL-00008" summary="한국어, 영어 적용 완료">
-      <created>1704974033999</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1704974033999</updated>
+      <workItem from="1705458494519" duration="2875000" />
     </task>
     <task id="LOCAL-00009" summary="recoil 세팅">
       <created>1705050368707</created>
@@ -463,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705389727659</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="이미지 그림자 추가">
+      <created>1705461216551</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1705461216552</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="project 화살표 css 수정" />
     <MESSAGE value="이미지 제거" />
     <MESSAGE value="topbar zindex 수정" />
     <MESSAGE value="introduce 버튼 크기 조정" />
@@ -506,7 +516,8 @@
     <MESSAGE value="애니메이션 안되는 현상 테스트" />
     <MESSAGE value="award scss 리팩토링" />
     <MESSAGE value="award 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="award 리팩토링" />
+    <MESSAGE value="이미지 그림자 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="이미지 그림자 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

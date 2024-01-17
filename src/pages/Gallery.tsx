@@ -157,30 +157,3 @@ export default function Gallery() {
     </Layout>
   );
 }
-
-// const Box = styled.div`
-//   @property --gradient-angle {
-//     syntax: "<angle>";
-//     initial-value: 0deg;
-//     inherits: false;
-//   }
-//
-//   inset: -0.5rem;
-//   width: 100%;
-//
-//   background: conic-gradient(
-//     from var(--gradient-angle),
-//     #01c7b7,
-//     #21bcd6,
-//     #1779bb
-//   );
-//   animation: rotation 20s linear infinite;
-//   @keyframes rotation {
-//     0% {
-//       --gradient-angle: 0deg;
-//     }
-//     100% {
-//       --gradient-angle: 360deg;
-//     }
-//   }
-// `;

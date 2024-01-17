@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import NavBar from "src/components/layout/NavBar";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { EducationData } from "src/types/type";
@@ -8,6 +7,7 @@ import SkillsContainer from "src/components/SkillsContainer";
 import TopBar from "src/components/common/TopBar";
 import { useTranslation } from "react-i18next";
 import Layout from "src/components/layout/Layout";
+import { observer } from "src/lib/worker/IntersectionObserver";
 
 export default function Introduce() {
   const { t } = useTranslation();
@@ -67,32 +67,19 @@ export default function Introduce() {
     return () => clearInterval(interval);
   }, [count]);
 
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.1,
-  };
+  useEffect(() => {
+    const imageAnimationList = document.querySelectorAll(
+      ".introduce-profile-image",
+    );
+    const textAnimationList = document.querySelectorAll(
+      ".introduce-profile-name",
+    );
+    const photolistAnimationList = document.querySelectorAll(".my-photo-list");
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      } else {
-        entry.target.classList.remove("active");
-      }
-    });
-  }, options);
-  const imageAnimationList = document.querySelectorAll(
-    ".introduce-profile-image",
-  );
-  const textAnimationList = document.querySelectorAll(
-    ".introduce-profile-name",
-  );
-  const photolistAnimationList = document.querySelectorAll(".my-photo-list");
-
-  imageAnimationList.forEach((el) => observer.observe(el));
-  textAnimationList.forEach((el) => observer.observe(el));
-  photolistAnimationList.forEach((el) => observer.observe(el));
+    imageAnimationList.forEach((el) => observer.observe(el));
+    textAnimationList.forEach((el) => observer.observe(el));
+    photolistAnimationList.forEach((el) => observer.observe(el));
+  });
 
   return (
     <Layout>
@@ -217,48 +204,3 @@ export default function Introduce() {
     </Layout>
   );
 }
-
-// const DashLine = styled.div`
-//   width: 30%;
-//   height: 0px;
-//   border: 1px dashed #000000;
-//   margin-bottom: 70px;
-//   margin-top: 70px;
-// `;
-// const IntroduceText = styled.div`
-//   font-family: Noto Sans KR;
-//   font-size: 17px;
-//   color: #53354a;
-//   margin-top: 5px;
-// `;
-//
-// const Contact = styled.div`
-//   font-family: Noto Sans KR;
-//   font-size: 20px;
-//   text-align: center;
-//   color: #53354a;
-//   margin-top: 5px;
-// `;
-//
-// const Link = styled(NavLink)`
-//   text-decoration: none;
-//   color: #53354a;
-// `;
-//
-// const Happyhyep = styled.div`
-//   font-family: iceJaram-Rg;
-//   font-style: normal;
-//   font-weight: 400;
-//   font-size: 80px;
-//   line-height: 71px;
-//   text-align: center;
-//   letter-spacing: 0.15em;
-// `;
-//
-// const Typing = styled.div`
-//   display: inline;
-//   vertical-align: middle;
-//   border-right: 0.05em solid black;
-//   animation: cursor 0.2s ease infinite;
-//   color: #ffd400;
-// `;

@@ -10,7 +10,6 @@ interface childProps {
 }
 const Layout = (props: childProps) => {
   const videoModalState = useRecoilValue(recoilModalState);
-  // const defaultRecoilModalState: ModalState = { ...videoModalState };
 
   return (
     <>

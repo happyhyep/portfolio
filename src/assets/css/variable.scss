@@ -135,14 +135,3 @@ RESOLUTION LIST
   animation-direction: normal;
   animation-fill-mode: forwards;
 }
-
-//@mixin dropDownUp {
-//  &.dropdown-enter-active,
-//  &.dropdown-enter-to {
-//    @include dropDown;
-//  }
-//  &.dropdown-leave-from,
-//  &.dropdown-leave-active {
-//    @include dropUp;
-//  }
-//}
