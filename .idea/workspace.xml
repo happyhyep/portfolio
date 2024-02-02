@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="불필요한 코드 제거">
-      <change afterPath="$PROJECT_DIR$/src/lib/worker/getActivityData.tsx" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="타입 이름 수정">
+      <change afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/activities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/activities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/introduce.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/pages/projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/commonImageList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/commonImageList.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Activity.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -78,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jeonghyein/Desktop/hyen/github/portfolio/public/assets/images/projects",
+    "last_opened_file_path": "/Users/jeonghyein/Desktop/hyen/github/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,7 +78,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "watcher.settings",
+    "settings.editor.selected.configurable": "actions.on.save",
     "ts.external.directory.path": "/Users/jeonghyein/Desktop/hyen/github/portfolio/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -132,6 +120,16 @@
       <workItem from="1705279111187" duration="33031000" />
       <workItem from="1705368648173" duration="16286000" />
       <workItem from="1705458494519" duration="12437000" />
+      <workItem from="1705547457775" duration="600000" />
+      <workItem from="1705633289888" duration="2942000" />
+      <workItem from="1705836309176" duration="43000" />
+      <workItem from="1705925046123" duration="2252000" />
+      <workItem from="1705982730346" duration="1327000" />
+      <workItem from="1706064128200" duration="6983000" />
+      <workItem from="1706152201068" duration="1800000" />
+      <workItem from="1706251562815" duration="601000" />
+      <workItem from="1706352862601" duration="1713000" />
+      <workItem from="1706873044271" duration="90000" />
     </task>
     <task id="LOCAL-00010" summary="navbar와 footer layout으로 통합">
       <created>1705050477445</created>
