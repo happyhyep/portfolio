@@ -19,13 +19,13 @@ const Layout = (props: childProps) => {
       {videoModalState.value ? (
         <div className="dim">
           <NavBar />
-          <main>{props.children}</main>
+          <section className="page-wrapper">{props.children}</section>
           <Footer />
         </div>
       ) : (
         <>
           <NavBar />
-          <main>{props.children}</main>
+          <section className="page-wrapper">{props.children}</section>
           <Footer />
         </>
       )}

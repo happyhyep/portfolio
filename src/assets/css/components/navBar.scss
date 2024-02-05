@@ -1,4 +1,6 @@
 .nav-bar {
+  position: fixed;
+  top: 0;
   width: 100%;
        height: 12rem;
        display: flex;
@@ -7,7 +9,7 @@
        border-bottom-width: 0.25rem;
        justify-content: space-between;
        background-color: white;
-       width: 100%;
+  z-index: 8;
 
     .nav-text-logo {
       text-decoration: none;
