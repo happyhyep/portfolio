@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="헤더 fixed">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="일본어 번역">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,14 +129,18 @@
       <workItem from="1706352862601" duration="1713000" />
       <workItem from="1706873044271" duration="326000" />
       <workItem from="1706931647695" duration="598000" />
-      <workItem from="1707095371389" duration="3562000" />
-    </task>
-    <task id="LOCAL-00012" summary="award 페이지 리팩토링">
-      <created>1705050554179</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1705050554179</updated>
+      <workItem from="1707095371389" duration="5996000" />
+      <workItem from="1707281509772" duration="598000" />
+      <workItem from="1707302929008" duration="598000" />
+      <workItem from="1707375953691" duration="598000" />
+      <workItem from="1707406392099" duration="598000" />
+      <workItem from="1707722361545" duration="598000" />
+      <workItem from="1707798224383" duration="598000" />
+      <workItem from="1707907896001" duration="598000" />
+      <workItem from="1707966716878" duration="1197000" />
+      <workItem from="1708306631563" duration="1875000" />
+      <workItem from="1708347525052" duration="608000" />
+      <workItem from="1708406923702" duration="1222000" />
     </task>
     <task id="LOCAL-00013" summary="코드 리팩토링">
       <created>1705050592350</created>
@@ -474,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707096600196</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="일본어 번역">
+      <created>1707099605337</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1707099605337</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="introduce 버튼 크기 조정" />
     <MESSAGE value="skills 컴포넌트 스타일 수정" />
     <MESSAGE value="이미지 preload" />
     <MESSAGE value="폰트 preload" />
@@ -517,7 +527,8 @@
     <MESSAGE value="불필요한 코드 제거" />
     <MESSAGE value="github 배포시 라우터 오류 해결" />
     <MESSAGE value="헤더 fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="헤더 fixed" />
+    <MESSAGE value="일본어 번역" />
+    <option name="LAST_COMMIT_MESSAGE" value="일본어 번역" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
