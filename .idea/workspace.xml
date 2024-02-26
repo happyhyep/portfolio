@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="일본어 번역">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="modify skills">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,14 +142,8 @@
       <workItem from="1707966716878" duration="1197000" />
       <workItem from="1708306631563" duration="1875000" />
       <workItem from="1708347525052" duration="608000" />
-      <workItem from="1708406923702" duration="1222000" />
-    </task>
-    <task id="LOCAL-00013" summary="코드 리팩토링">
-      <created>1705050592350</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1705050592351</updated>
+      <workItem from="1708406923702" duration="1828000" />
+      <workItem from="1708931541270" duration="57000" />
     </task>
     <task id="LOCAL-00014" summary="projects 페이지 리팩토링">
       <created>1705050615388</created>
@@ -485,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707099605337</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="modify skills">
+      <created>1708517368394</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1708517368394</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="skills 컴포넌트 스타일 수정" />
     <MESSAGE value="이미지 preload" />
     <MESSAGE value="폰트 preload" />
     <MESSAGE value="쿠버네티스 제거" />
@@ -528,7 +530,8 @@
     <MESSAGE value="github 배포시 라우터 오류 해결" />
     <MESSAGE value="헤더 fixed" />
     <MESSAGE value="일본어 번역" />
-    <option name="LAST_COMMIT_MESSAGE" value="일본어 번역" />
+    <MESSAGE value="modify skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify skills" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
