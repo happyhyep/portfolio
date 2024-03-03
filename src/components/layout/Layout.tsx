@@ -4,6 +4,7 @@ import Footer from "src/components/layout/Footer";
 import VideoModal from "src/components/VideoModal";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { ModalState, recoilModalState } from "src/states/recoilModalState";
+import PageGuideComponent from "src/components/common/PageGuideComponent";
 
 interface childProps {
   children: JSX.Element;
@@ -24,6 +25,7 @@ const Layout = (props: childProps) => {
         </div>
       ) : (
         <>
+          <PageGuideComponent />
           <NavBar />
           <section className="page-wrapper">{props.children}</section>
           <Footer />

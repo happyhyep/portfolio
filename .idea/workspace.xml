@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="modify skills">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="언어 변경">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,14 +144,12 @@
       <workItem from="1708306631563" duration="1875000" />
       <workItem from="1708347525052" duration="608000" />
       <workItem from="1708406923702" duration="1828000" />
-      <workItem from="1708931541270" duration="57000" />
-    </task>
-    <task id="LOCAL-00014" summary="projects 페이지 리팩토링">
-      <created>1705050615388</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1705050615388</updated>
+      <workItem from="1708931541270" duration="1667000" />
+      <workItem from="1709291553949" duration="598000" />
+      <workItem from="1709454699200" duration="306000" />
+      <workItem from="1709458228109" duration="211000" />
+      <workItem from="1709458607047" duration="598000" />
+      <workItem from="1709463914846" duration="1044000" />
     </task>
     <task id="LOCAL-00015" summary="모바일 메뉴 기능 추가">
       <created>1705060995054</created>
@@ -488,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708517368394</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="언어 변경">
+      <created>1708931623495</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1708931623495</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="이미지 preload" />
     <MESSAGE value="폰트 preload" />
     <MESSAGE value="쿠버네티스 제거" />
     <MESSAGE value="noto sans kr 폰트 수정" />
@@ -531,7 +536,8 @@
     <MESSAGE value="헤더 fixed" />
     <MESSAGE value="일본어 번역" />
     <MESSAGE value="modify skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify skills" />
+    <MESSAGE value="언어 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="언어 변경" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
