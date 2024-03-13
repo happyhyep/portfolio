@@ -6,4 +6,68 @@
   background-color: black;
   position: fixed;
   z-index: 200;
+
+  .arrow-left {
+    width: 54px;
+    position: fixed;
+    top: 8%;
+    left: 5%;
+  }
+  .go-to-text {
+    font-family: "Noto Sans KR";
+    font-size: 2.5rem;
+    color: $colorWhite;
+  }
+  .go-to-home {
+    position: fixed;
+    top: 13%;
+    left: 10%;
+  }
+
+  .arrow-right {
+    transform: scaleX(-1);
+  }
+  .arrow-menu {
+    width: 54px;
+    position: fixed;
+    top: 7%;
+    right: 22%;
+  }
+  .go-to-menu {
+    position: fixed;
+    top: 12%;
+    left: 66%;
+  }
+
+  .language-menu {
+    width: 54px;
+    position: absolute;
+    top: 7%;
+    right: 3%;
+  }
+  .change-language {
+    position: absolute;
+    top: 12%;
+    right: 8%;
+  }
+
+  .arrow-scroll-down {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .scroll-to-down {
+    font-family: "Noto Sans KR";
+    font-size: 3rem;
+    color: $colorWhite;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn-got-it {
+
+  }
 }
