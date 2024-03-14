@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="prettier setting">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="modify page guide component css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,29 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyen/Desktop/hyen/github/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/hyen/Desktop/hyen/github/portfolio/node_modules/prettier",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/hyen/Desktop/hyen/github/portfolio/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hyen/Desktop/hyen/github/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/hyen/Desktop/hyen/github/portfolio/node_modules/prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/hyen/Desktop/hyen/github/portfolio/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/assets/images/projects" />
@@ -148,28 +147,8 @@
       <workItem from="1709458228109" duration="211000" />
       <workItem from="1709458607047" duration="598000" />
       <workItem from="1709463914846" duration="1044000" />
-      <workItem from="1709695495264" duration="7269000" />
-    </task>
-    <task id="LOCAL-00016" summary="github-pages 세팅">
-      <created>1705061099623</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1705061099623</updated>
-    </task>
-    <task id="LOCAL-00017" summary="커서 이미지로 수정">
-      <created>1705138221746</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1705138221746</updated>
-    </task>
-    <task id="LOCAL-00018" summary="포인터 커서 수정">
-      <created>1705138271864</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1705138271864</updated>
+      <workItem from="1709695495264" duration="8573000" />
+      <workItem from="1710419075502" duration="690000" />
     </task>
     <task id="LOCAL-00019" summary="불필요한 import 제거">
       <created>1705138312440</created>
@@ -493,7 +472,28 @@
       <option name="project" value="LOCAL" />
       <updated>1710143623373</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="page guide component">
+      <created>1710254479571</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1710254479571</updated>
+    </task>
+    <task id="LOCAL-00066" summary="modify page guide component css">
+      <created>1710298460229</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1710298460229</updated>
+    </task>
+    <task id="LOCAL-00067" summary="modify page guide component css">
+      <created>1710298466346</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1710298466346</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,8 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="쿠버네티스 제거" />
-    <MESSAGE value="noto sans kr 폰트 수정" />
     <MESSAGE value="애플 폰트 추가" />
     <MESSAGE value="폰트 속성 수정" />
     <MESSAGE value="activities 페이지 애니메이션 추가" />
@@ -536,7 +534,9 @@
     <MESSAGE value="modify skills" />
     <MESSAGE value="언어 변경" />
     <MESSAGE value="prettier setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="prettier setting" />
+    <MESSAGE value="page guide component" />
+    <MESSAGE value="modify page guide component css" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify page guide component css" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
