@@ -68,6 +68,16 @@
     transform: translate(-50%,-50%);
   }
   .btn-got-it {
-    border: 1px solid $colorWhite;
+    font-family: "Noto Sans KR";
+    font-size: 2.5rem;
+    color: $colorWhite;
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 2.5rem;
+    border: 3px solid $colorWhite;
+    border-radius: 2.3rem;
   }
 }
