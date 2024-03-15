@@ -6,6 +6,7 @@
   background-color: black;
   position: fixed;
   z-index: 200;
+  overflow: hidden;
 
   .arrow-left {
     width: 54px;
@@ -79,5 +80,7 @@
     padding: 1rem 2.5rem;
     border: 3px solid $colorWhite;
     border-radius: 2.3rem;
+
+    cursor: url("/assets/icons/angry.png"), url("/assets/icons/angry.cur"), pointer;
   }
 }
