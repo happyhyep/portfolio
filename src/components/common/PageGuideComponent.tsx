@@ -1,6 +1,19 @@
 import React from "react";
+import { useRecoilState } from "recoil";
+import {
+  guideComponent,
+  recoilGuideComponent,
+} from "src/states/recoilGuideComponent";
 
 const PageGuideComponent = () => {
+  const [showPageGuideComponent, setShowPageGuideComponent] =
+    useRecoilState(recoilGuideComponent);
+  const defaultRecoilGuideState: guideComponent = { ...showPageGuideComponent };
+
+  const closeGuideComponent = () => {
+    defaultRecoilGuideState.value = false;
+    setShowPageGuideComponent(defaultRecoilGuideState);
+  };
   return (
     <section className="page-guide-component">
       <img
@@ -28,7 +41,9 @@ const PageGuideComponent = () => {
         }
       />
       <div className="scroll-to-down">Scroll To Down</div>
-      <div className="btn-got-it">I Got It</div>
+      <div className="btn-got-it" onClick={closeGuideComponent}>
+        I Got It
+      </div>
     </section>
   );
 };

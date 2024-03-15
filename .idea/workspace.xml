@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="modify page guide component css">
+      <change afterPath="$PROJECT_DIR$/src/states/recoilGuideComponent.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +152,7 @@
       <workItem from="1709458607047" duration="598000" />
       <workItem from="1709463914846" duration="1044000" />
       <workItem from="1709695495264" duration="8573000" />
-      <workItem from="1710419075502" duration="2079000" />
-    </task>
-    <task id="LOCAL-00020" summary="민속박물관 desc 수정">
-      <created>1705225062826</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1705225062826</updated>
+      <workItem from="1710419075502" duration="4356000" />
     </task>
     <task id="LOCAL-00021" summary="project 페이지 모바일 반응형 수정">
       <created>1705225101431</created>
@@ -493,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710423219749</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="modify page guide component css">
+      <created>1710509106255</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1710509106255</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
