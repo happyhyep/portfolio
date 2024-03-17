@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="modify page guide component css">
-      <change afterPath="$PROJECT_DIR$/src/states/recoilGuideComponent.ts" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="페이지 가이드 새로고침시에만 노출되게 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/pageGuideComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/PageGuideComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,21 +148,8 @@
       <workItem from="1709458607047" duration="598000" />
       <workItem from="1709463914846" duration="1044000" />
       <workItem from="1709695495264" duration="8573000" />
-      <workItem from="1710419075502" duration="4356000" />
-    </task>
-    <task id="LOCAL-00021" summary="project 페이지 모바일 반응형 수정">
-      <created>1705225101431</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1705225101431</updated>
-    </task>
-    <task id="LOCAL-00022" summary="project 화살표 css 수정">
-      <created>1705225116483</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1705225116483</updated>
+      <workItem from="1710419075502" duration="5026000" />
+      <workItem from="1710671454218" duration="1100000" />
     </task>
     <task id="LOCAL-00023" summary="이미지 제거">
       <created>1705225136733</created>
@@ -497,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710509106255</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="modify page guide component css">
+      <created>1710516485058</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1710516485058</updated>
+    </task>
+    <task id="LOCAL-00071" summary="페이지 가이드 새로고침시에만 노출되게 수정">
+      <created>1710516519497</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1710516519497</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="애플 폰트 추가" />
     <MESSAGE value="폰트 속성 수정" />
     <MESSAGE value="activities 페이지 애니메이션 추가" />
     <MESSAGE value="스크롤바 없애기" />
@@ -540,7 +536,8 @@
     <MESSAGE value="prettier setting" />
     <MESSAGE value="page guide component" />
     <MESSAGE value="modify page guide component css" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify page guide component css" />
+    <MESSAGE value="페이지 가이드 새로고침시에만 노출되게 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="페이지 가이드 새로고침시에만 노출되게 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
