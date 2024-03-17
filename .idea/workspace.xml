@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="페이지 가이드 모바일 css 수정">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="초기 언어 한국어로 저장">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +151,7 @@
       <workItem from="1709463914846" duration="1044000" />
       <workItem from="1709695495264" duration="8573000" />
       <workItem from="1710419075502" duration="5026000" />
-      <workItem from="1710671454218" duration="1181000" />
-    </task>
-    <task id="LOCAL-00024" summary="topbar zindex 수정">
-      <created>1705225153622</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1705225153622</updated>
+      <workItem from="1710671454218" duration="1337000" />
     </task>
     <task id="LOCAL-00025" summary="introduce 버튼 크기 조정">
       <created>1705291563801</created>
@@ -494,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710672876680</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="초기 언어 한국어로 저장">
+      <created>1710673010193</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1710673010193</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="activities 페이지 애니메이션 추가" />
     <MESSAGE value="스크롤바 없애기" />
     <MESSAGE value="activities 페이지 눈 내리는 애니메이션 추가" />
     <MESSAGE value="award 페이지 애니메이션 추가" />
@@ -537,7 +538,8 @@
     <MESSAGE value="modify page guide component css" />
     <MESSAGE value="페이지 가이드 새로고침시에만 노출되게 수정" />
     <MESSAGE value="페이지 가이드 모바일 css 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="페이지 가이드 모바일 css 수정" />
+    <MESSAGE value="초기 언어 한국어로 저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="초기 언어 한국어로 저장" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
