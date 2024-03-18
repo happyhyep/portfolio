@@ -56,14 +56,14 @@ export default function Awards(this: any) {
               />
             );
           })}
-        <div className="btn-container">
-          <NavLink
-            className="change-page-btn"
-            to={`${process.env.PUBLIC_URL}/projects`}
-          >
-            Projects Page →
-          </NavLink>
-        </div>
+        {/*<div className="btn-container">*/}
+        {/*  <NavLink*/}
+        {/*    className="change-page-btn"*/}
+        {/*    to={`${process.env.PUBLIC_URL}/projects`}*/}
+        {/*  >*/}
+        {/*    Projects Page →*/}
+        {/*  </NavLink>*/}
+        {/*</div>*/}
       </section>
     </Layout>
   );
