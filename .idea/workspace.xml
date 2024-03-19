@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="appledeveloperacademy 문구 수정">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="awards 페이지 이동 버튼 삭제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Awards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Awards.tsx" afterDir="false" />
     </list>
@@ -150,14 +150,8 @@
       <workItem from="1709695495264" duration="8573000" />
       <workItem from="1710419075502" duration="5026000" />
       <workItem from="1710671454218" duration="2123000" />
-      <workItem from="1710719689761" duration="1318000" />
-    </task>
-    <task id="LOCAL-00026" summary="skills 컴포넌트 스타일 수정">
-      <created>1705291612827</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1705291612827</updated>
+      <workItem from="1710719689761" duration="1949000" />
+      <workItem from="1710805878201" duration="621000" />
     </task>
     <task id="LOCAL-00027" summary="이미지 preload">
       <created>1705291626663</created>
@@ -495,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710673116469</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="awards 페이지 이동 버튼 삭제">
+      <created>1710765510269</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1710765510269</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="activities 페이지 눈 내리는 애니메이션 추가" />
     <MESSAGE value="award 페이지 애니메이션 추가" />
     <MESSAGE value="gallery 페이지 애니메이션 추가" />
     <MESSAGE value="gallery 페이지 이미지 추가" />
@@ -538,7 +538,8 @@
     <MESSAGE value="페이지 가이드 모바일 css 수정" />
     <MESSAGE value="초기 언어 한국어로 저장" />
     <MESSAGE value="appledeveloperacademy 문구 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="appledeveloperacademy 문구 수정" />
+    <MESSAGE value="awards 페이지 이동 버튼 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="awards 페이지 이동 버튼 삭제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

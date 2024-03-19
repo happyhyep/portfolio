@@ -5,7 +5,6 @@ import Layout from "src/components/layout/Layout";
 import AwardBox from "src/components/AwardBox";
 import { AwardData } from "src/types/type";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
 export default function Awards(this: any) {
   const { t } = useTranslation();
 
@@ -56,14 +55,6 @@ export default function Awards(this: any) {
               />
             );
           })}
-        {/*<div className="btn-container">*/}
-        {/*  <NavLink*/}
-        {/*    className="change-page-btn"*/}
-        {/*    to={`${process.env.PUBLIC_URL}/projects`}*/}
-        {/*  >*/}
-        {/*    Projects Page →*/}
-        {/*  </NavLink>*/}
-        {/*</div>*/}
       </section>
     </Layout>
   );
