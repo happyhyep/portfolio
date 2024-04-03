@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="불필요한 내용 제거">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/worker/getProjectPropsData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/worker/getProjectPropsData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/enum.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +155,8 @@
       <workItem from="1710719689761" duration="1949000" />
       <workItem from="1710805878201" duration="1236000" />
       <workItem from="1710892958744" duration="600000" />
-    </task>
-    <task id="LOCAL-00028" summary="이미지 preload">
-      <created>1705300434184</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1705300434184</updated>
+      <workItem from="1711938295795" duration="1206000" />
+      <workItem from="1712020143106" duration="1722000" />
     </task>
     <task id="LOCAL-00029" summary="폰트 preload">
       <created>1705300623518</created>
@@ -496,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710849590396</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="불필요한 내용 제거">
+      <created>1711938304064</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1711938304064</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

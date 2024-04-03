@@ -7,6 +7,42 @@ export default function getProjectPropsData() {
   const { t } = useTranslation();
   const propsObj: ProjectDataInterface[] = [
     {
+      idx: 9,
+      img: process.env.PUBLIC_URL + "/assets/images/projects/vote-share.svg",
+      title: t("projects.vote-share.title"),
+      subtitle: t("projects.vote-share.subtitle"),
+      user: t("projects.vote-share.user"),
+      strongStacks: [
+        STACK_NAME.REACT,
+        STACK_NAME.TYPESCRIPT,
+        STACK_NAME.SASS,
+        STACK_NAME.RECOIL,
+        STACK_NAME.DOCKER,
+        STACK_NAME.DOCKERCOMPOSE,
+        STACK_NAME.EC2,
+        STACK_NAME.FIGMA,
+      ],
+      stacks: [
+        STACK_NAME.SPRING,
+        STACK_NAME.MYSQL,
+        STACK_NAME.REDIS,
+        STACK_NAME.GOOGLEOAUTH,
+      ],
+      desc: [
+        t("projects.vote-share.desc-1"),
+        t("projects.vote-share.desc-2"),
+        t("projects.vote-share.desc-3"),
+        t("projects.vote-share.desc-4"),
+        t("projects.vote-share.desc-5"),
+      ],
+      isHaveWeb: true,
+      isHaveGithub: true,
+      isHaveVideo: false,
+      webLink: "http://vote-share.o-r.kr",
+      githubLink: "https://github.com/happyhyep/vote-share-fe",
+      videoLink: null,
+    },
+    {
       idx: 8,
       img: process.env.PUBLIC_URL + "/assets/images/projects/world-esim.webp",
       title: t("projects.esim.title"),
