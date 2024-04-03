@@ -60,6 +60,16 @@
     "edu": "2021 Educational Donation Contest For College Students Encouragement Prize"
   },
   "projects": {
+    "vote-share": {
+      "title": "VOTE SHARE",
+      "subtitle": "- Easy to vote service with just a link",
+      "user": "",
+      "desc-1": "It is a site where you can easily vote with only a link",
+      "desc-2": "without going through KakaoTalk voting or YouTube communities.",
+      "desc-3": "It was conducted with one front end developer and one back end developer.",
+      "desc-4": "Among them, I am front-end developer",
+      "desc-5": "I've done everything from design to front-end deployment."
+    },
     "esim": {
       "title": "World-ESIM",
       "subtitle": "- ESIM Sales Site",
