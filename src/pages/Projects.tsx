@@ -68,14 +68,6 @@ export default function Projects() {
               return <ProjectComponent data={el} />;
             })}
         </Slider>
-        <div className="btn-container">
-          <NavLink
-            className="change-page-btn"
-            to={`${process.env.PUBLIC_URL}/activities`}
-          >
-            Activities Page →
-          </NavLink>
-        </div>
       </section>
     </Layout>
   );
