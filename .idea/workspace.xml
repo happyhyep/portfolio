@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="project 페이지 바로가기 버튼 제거">
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="esim admin project 링크 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/jp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/worker/getProjectPropsData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/worker/getProjectPropsData.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,28 +155,9 @@
       <workItem from="1710892958744" duration="600000" />
       <workItem from="1711938295795" duration="1206000" />
       <workItem from="1712020143106" duration="3247000" />
-      <workItem from="1712638240265" duration="211000" />
-    </task>
-    <task id="LOCAL-00033" summary="폰트 속성 수정">
-      <created>1705302059018</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1705302059018</updated>
-    </task>
-    <task id="LOCAL-00034" summary="activities 페이지 애니메이션 추가">
-      <created>1705319956000</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1705319956000</updated>
-    </task>
-    <task id="LOCAL-00035" summary="스크롤바 없애기">
-      <created>1705320015446</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1705320015446</updated>
+      <workItem from="1712638240265" duration="825000" />
+      <workItem from="1712911401855" duration="772000" />
+      <workItem from="1713190747756" duration="597000" />
     </task>
     <task id="LOCAL-00036" summary="activities 페이지 눈 내리는 애니메이션 추가">
       <created>1705320047651</created>
@@ -502,7 +481,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712142406533</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="nfm-trd project 설명 추가">
+      <created>1712638465003</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1712638465004</updated>
+    </task>
+    <task id="LOCAL-00083" summary="esim project 링크 수정">
+      <created>1712911544473</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1712911544474</updated>
+    </task>
+    <task id="LOCAL-00084" summary="esim admin project 링크 수정">
+      <created>1713191304668</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1713191304669</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,9 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="커서 이미지 변경" />
-    <MESSAGE value="애플 폰트 제거" />
-    <MESSAGE value="애니메이션 안되는 현상 테스트" />
     <MESSAGE value="award scss 리팩토링" />
     <MESSAGE value="award 리팩토링" />
     <MESSAGE value="이미지 그림자 추가" />
@@ -545,7 +542,10 @@
     <MESSAGE value="vote share 프로젝트 영어, 일본어 번역 추가" />
     <MESSAGE value="activities 페이지 타이틀 폰트 크기 수정" />
     <MESSAGE value="project 페이지 바로가기 버튼 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="project 페이지 바로가기 버튼 제거" />
+    <MESSAGE value="nfm-trd project 설명 추가" />
+    <MESSAGE value="esim project 링크 수정" />
+    <MESSAGE value="esim admin project 링크 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="esim admin project 링크 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
