@@ -98,7 +98,7 @@ export default function getProjectPropsData() {
       isHaveWeb: true,
       isHaveGithub: false,
       isHaveVideo: false,
-      webLink: "https://esim-admin.famppy.com/",
+      webLink: "https://www.admin.pre-esim.shop/login",
       githubLink: null,
       videoLink: null,
     },
