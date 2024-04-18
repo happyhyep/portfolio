@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="esim admin project 링크 수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/worker/getProjectPropsData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/worker/getProjectPropsData.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="project 데이터 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,14 +154,7 @@
       <workItem from="1712020143106" duration="3247000" />
       <workItem from="1712638240265" duration="825000" />
       <workItem from="1712911401855" duration="772000" />
-      <workItem from="1713190747756" duration="597000" />
-    </task>
-    <task id="LOCAL-00036" summary="activities 페이지 눈 내리는 애니메이션 추가">
-      <created>1705320047651</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1705320047651</updated>
+      <workItem from="1713190747756" duration="856000" />
     </task>
     <task id="LOCAL-00037" summary="award 페이지 애니메이션 추가">
       <created>1705320112366</created>
@@ -502,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713191304669</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="project 데이터 수정">
+      <created>1713191383967</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1713191383967</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="award scss 리팩토링" />
     <MESSAGE value="award 리팩토링" />
     <MESSAGE value="이미지 그림자 추가" />
     <MESSAGE value="불필요한 코드 제거" />
@@ -545,7 +541,8 @@
     <MESSAGE value="nfm-trd project 설명 추가" />
     <MESSAGE value="esim project 링크 수정" />
     <MESSAGE value="esim admin project 링크 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="esim admin project 링크 수정" />
+    <MESSAGE value="project 데이터 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="project 데이터 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
