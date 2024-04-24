@@ -28,9 +28,11 @@ export interface ProjectDataInterface {
   isHaveWeb: boolean;
   isHaveGithub: boolean;
   isHaveVideo: boolean;
+  isHaveAppStore: boolean;
   webLink: string | null;
   githubLink: string | null;
   videoLink: string | null;
+  appLink: string | null;
 }
 
 export interface PreloadImgInterface {

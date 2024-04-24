@@ -22,10 +22,12 @@ export default function getIosProjectPropsData() {
       isHaveWeb: false,
       isHaveGithub: false,
       isHaveVideo: true,
+      isHaveAppStore: true,
       webLink: null,
       githubLink: null,
       videoLink:
         process.env.PUBLIC_URL + "/assets/images/projects/dreamary.mp4",
+      appLink: "https://apps.apple.com/kr/app/dreamary/id6499092917",
     },
     {
       idx: 1,
@@ -43,9 +45,11 @@ export default function getIosProjectPropsData() {
       isHaveWeb: false,
       isHaveGithub: true,
       isHaveVideo: false,
+      isHaveAppStore: false,
       webLink: null,
       githubLink: "https://github.com/happyhyep/TravRec",
       videoLink: null,
+      appLink: null,
     },
   ];
 

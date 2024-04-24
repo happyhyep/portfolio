@@ -57,7 +57,15 @@ const ProjectComponent = (props: any) => {
             </NavLink>
           ) : null}
         </div>
-
+        {props.data.isHaveAppStore ? (
+          <NavLink className="project-btn" to={props.data.appLink}>
+            <img
+              alt="appstore"
+              src={process.env.PUBLIC_URL + "/assets/icons/appstore.svg"}
+            ></img>
+            App Store
+          </NavLink>
+        ) : null}
         {props.data.isHaveVideo ? (
           <button className="project-btn" onClick={changeVideoModalState}>
             VIDEO →{" "}
