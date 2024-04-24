@@ -24,4 +24,6 @@ export enum STACK_NAME {
   VANILLAJS = "VanillaJS",
   OPENAPI = "Open api",
   STYLEDCOMPONENT = "Styled Component",
+  SWIFT = "Swift",
+  SWIFTUI = "Swift UI",
 }

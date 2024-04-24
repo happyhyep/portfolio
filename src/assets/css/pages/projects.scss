@@ -82,7 +82,8 @@
 
 .video-modal {
   position: fixed;
-  width: 100rem;
+  max-width: 100rem;
+  max-height: 50rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -102,7 +103,8 @@
     border-radius: 1rem;
   }
   video {
-    width: 100rem;
+    max-width: 100rem;
+    max-height: 50rem;
     border-radius: 2rem;
   }
 

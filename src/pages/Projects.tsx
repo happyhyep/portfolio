@@ -7,8 +7,9 @@ import Layout from "src/components/layout/Layout";
 import TopBar from "src/components/common/TopBar";
 import DashTitle from "src/components/common/DashTitle";
 import ProjectComponent from "src/components/ProjectComponent";
-import getProjectPropsData from "src/lib/worker/getProjectPropsData";
+import getWebProjectPropsData from "src/lib/worker/getWebProjectPropsData";
 import { NavLink } from "react-router-dom";
+import getIosProjectPropsData from "src/lib/worker/getIosProjectPropsData";
 
 export default function Projects() {
   function SamplePrevArrow(props: any) {
@@ -55,7 +56,8 @@ export default function Projects() {
     prevArrow: <SamplePrevArrow />,
   };
 
-  const propsObj = getProjectPropsData();
+  const propsWebObj = getWebProjectPropsData();
+  const propsAppObj = getIosProjectPropsData();
 
   return (
     <Layout>
@@ -63,8 +65,15 @@ export default function Projects() {
         <TopBar color="#000000" />
         <DashTitle name="Web"></DashTitle>
         <Slider {...settings}>
-          {propsObj &&
-            propsObj.map((el) => {
+          {propsWebObj &&
+            propsWebObj.map((el) => {
+              return <ProjectComponent data={el} />;
+            })}
+        </Slider>
+        <DashTitle name="App"></DashTitle>
+        <Slider {...settings}>
+          {propsAppObj &&
+            propsAppObj.map((el) => {
               return <ProjectComponent data={el} />;
             })}
         </Slider>
