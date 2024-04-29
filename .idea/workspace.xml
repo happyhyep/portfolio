@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="appstore 링크 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectComponent.tsx" afterDir="false" />
+    <list default="true" id="2d2d0bb8-6a4c-4a72-97ca-0d46282dbdea" name="Changes" comment="링크 새 탭 생성으로 수정, 다음 메뉴가기 버튼 제거">
       <change beforePath="$PROJECT_DIR$/src/components/layout/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/locale/ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/locale/ko.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Activity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Activity.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Introduce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Introduce.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +159,7 @@
       <workItem from="1712911401855" duration="772000" />
       <workItem from="1713190747756" duration="856000" />
       <workItem from="1713411913913" duration="779000" />
-      <workItem from="1713761838789" duration="10275000" />
-    </task>
-    <task id="LOCAL-00040" summary="home 페이지 스크롤시 애니메이션 추가">
-      <created>1705320214445</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1705320214445</updated>
+      <workItem from="1713761838789" duration="10438000" />
     </task>
     <task id="LOCAL-00041" summary="project 페이지 video">
       <created>1705320246793</created>
@@ -511,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713936085290</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="링크 새 탭 생성으로 수정, 다음 메뉴가기 버튼 제거">
+      <created>1714378334557</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1714378334557</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="github 배포시 라우터 오류 해결" />
     <MESSAGE value="헤더 fixed" />
     <MESSAGE value="일본어 번역" />
     <MESSAGE value="modify skills" />
@@ -554,7 +546,8 @@
     <MESSAGE value="introduce 데이터 수정" />
     <MESSAGE value="app 데이터 추가" />
     <MESSAGE value="appstore 링크 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="appstore 링크 추가" />
+    <MESSAGE value="링크 새 탭 생성으로 수정, 다음 메뉴가기 버튼 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="링크 새 탭 생성으로 수정, 다음 메뉴가기 버튼 제거" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -12,7 +12,7 @@ const Footer = () => {
           <img
             className="footer-icon-image"
             alt="github"
-            src={process.env.PUBLIC_U거RL + "/assets/icons/github.webp"}
+            src={process.env.PUBLIC_URL + "/assets/icons/github.webp"}
           ></img>
         </button>
         <button

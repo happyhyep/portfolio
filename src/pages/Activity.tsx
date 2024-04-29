@@ -50,14 +50,14 @@ export default function Activities() {
           );
         })}
 
-        <div className="btn-container">
-          <NavLink
-            className="change-page-btn"
-            to={`${process.env.PUBLIC_URL}/gallery`}
-          >
-            Gallery Page →
-          </NavLink>
-        </div>
+        {/*<div className="btn-container">*/}
+        {/*  <NavLink*/}
+        {/*    className="change-page-btn"*/}
+        {/*    to={`${process.env.PUBLIC_URL}/gallery`}*/}
+        {/*  >*/}
+        {/*    Gallery Page →*/}
+        {/*  </NavLink>*/}
+        {/*</div>*/}
       </section>
     </Layout>
   );
