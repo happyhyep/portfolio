@@ -52,20 +52,36 @@ const ProjectComponent = (props: any) => {
       <div className="project-btn-container">
         <div>
           {props.data.isHaveWeb ? (
-            <NavLink className="project-btn" to={props.data.webLink}>
+            <button
+              className="project-btn"
+              onClick={() => window.open(props.data.webLink, "_blank")}
+            >
               Web Page →
-            </NavLink>
-          ) : null}
+            </button>
+          ) : // <NavLink className="project-btn" to={props.data.webLink}>
+          //   Web Page →
+          // </NavLink>
+          null}
         </div>
         {props.data.isHaveAppStore ? (
-          <NavLink className="project-btn" to={props.data.appLink}>
+          <button
+            className="project-btn"
+            onClick={() => window.open(props.data.appLink, "_blank")}
+          >
             <img
               alt="appstore"
               src={process.env.PUBLIC_URL + "/assets/icons/appstore.svg"}
             ></img>
             App Store
-          </NavLink>
-        ) : null}
+          </button>
+        ) : // <NavLink className="project-btn" to={props.data.appLink}>
+        //   <img
+        //     alt="appstore"
+        //     src={process.env.PUBLIC_URL + "/assets/icons/appstore.svg"}
+        //   ></img>
+        //   App Store
+        // </NavLink>
+        null}
         {props.data.isHaveVideo ? (
           <button className="project-btn" onClick={changeVideoModalState}>
             VIDEO →{" "}
@@ -73,14 +89,24 @@ const ProjectComponent = (props: any) => {
         ) : null}
 
         {props.data.isHaveGithub ? (
-          <NavLink className="project-btn" to={props.data.githubLink}>
+          <button
+            className="project-btn"
+            onClick={() => window.open(props.data.githubLink, "_blank")}
+          >
             <img
               alt="github"
               src={process.env.PUBLIC_URL + "/assets/icons/github.webp"}
             ></img>
             GITHUB
-          </NavLink>
-        ) : null}
+          </button>
+        ) : // <NavLink className="project-btn" to={props.data.githubLink}>
+        //   <img
+        //     alt="github"
+        //     src={process.env.PUBLIC_URL + "/assets/icons/github.webp"}
+        //   ></img>
+        //   GITHUB
+        // </NavLink>
+        null}
       </div>
     </div>
   );

@@ -82,14 +82,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="btn-container">
-          <NavLink
-            className="change-page-btn"
-            to={`${process.env.PUBLIC_URL}/introduce`}
-          >
-            Introduce Menu →
-          </NavLink>
-        </div>
+        {/*<div className="btn-container">*/}
+        {/*  <NavLink*/}
+        {/*    className="change-page-btn"*/}
+        {/*    to={`${process.env.PUBLIC_URL}/introduce`}*/}
+        {/*  >*/}
+        {/*    Introduce Menu →*/}
+        {/*  </NavLink>*/}
+        {/*</div>*/}
       </section>
     </Layout>
   );

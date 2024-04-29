@@ -101,6 +101,10 @@ html {
   z-index: 3;
 }
 
+.basic-button {
+  all: unset;
+}
+
 body::after{
   position:absolute;
   width:0;
