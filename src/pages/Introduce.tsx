@@ -33,6 +33,10 @@ export default function Introduce() {
       period: "2021~",
       name: t("introduce.education.univ"),
     },
+    {
+      period: "2024",
+      name: t("introduce.education.naver-boostcamp"),
+    },
     // {
     //   period: "2024",
     //   name: t("introduce.education.apple-academy"),

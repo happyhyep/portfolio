@@ -50,7 +50,7 @@
       "high-school": "Pohang Jangseong Highschool",
       "science-gen": "Gyeongsangbuk-do Office Education Science Gifted Education Center",
       "univ": "Kyunghee Univ. Computer Science & Engineering",
-      "apple-academy": "Apple Developer Academy"
+      "naver-boostcamp": "Naver BoostCamp Web Fullstack 9th."
     }
   },
   "awards": {
@@ -162,9 +162,9 @@
     }
   },
   "activites": {
-    "apple-developer" : {
-      "title": "Apple Developer Academy @ POSTECH 3rd",
-      "date": "(2024.03 ~)"
+    "naver-boost-camp" : {
+      "title": "Naver BoostCamp Web Fullstack 9th.",
+      "date": "(2024.08 ~ 2024.12)"
     },
     "famppy" : {
       "title": "Intern at FAMPPY Co., Ltd",

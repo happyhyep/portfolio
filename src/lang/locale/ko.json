@@ -50,7 +50,7 @@
       "high-school": "포항장성고등학교",
       "science-gen": "경상북도교육청 과학 영재 교육원",
       "univ": "경희대학교 컴퓨터공학과",
-      "apple-academy": "애플 디벨로퍼 아카데미"
+      "naver-boostcamp": "네이버 부스트캠프 웹풀스택 9기"
     }
   },
   "awards": {
@@ -182,9 +182,9 @@
     }
   },
   "activites": {
-    "apple-developer" : {
-      "title": "Apple Developer Academy @ POSTECH 3rd",
-      "date": "(2024.03 ~)"
+    "naver-boost-camp" : {
+      "title": "네이버 부스트캠프 웹풀스택 9기",
+      "date": "(2024.08 ~ 2024.12)"
     },
     "famppy" : {
       "title": "(주) 팜피 인턴",

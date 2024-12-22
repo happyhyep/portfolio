@@ -7,9 +7,9 @@ export default function getActivityData() {
 
   const activityData: ActivityDataInterface[] = [
     {
-      key: "apple-devloper",
-      value: t("activites.apple-developer.title"),
-      date: t("activites.apple-developer.date"),
+      key: "naver-boost-camp",
+      value: t("activites.naver-boost-camp.title"),
+      date: t("activites.naver-boost-camp.date"),
     },
     {
       key: "famppy",
